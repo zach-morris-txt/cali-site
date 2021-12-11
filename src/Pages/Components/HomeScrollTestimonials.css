@@ -1,0 +1,83 @@
+.wrapperTest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    overflow: hidden;
+    transition: ease-out 1000ms;
+}
+.sliderTest{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+
+.slidesTest{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4000vw;
+    height: 250px;
+}
+
+.slideWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.slideContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60vw;
+    height: 140px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,.5);
+}
+
+.testimoneyWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slideTestimoney{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 60%;
+    margin: 0px 20px 0px 20px;
+    text-align: center;
+    color: white;
+}
+
+.slideInfos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.slideName{
+    margin-right: 40px;
+}
+
+.slideInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slideInfo1{
+    color: #0099CC;
+}
+
+.slideInfo2{
+    color: #EA4335;
+}

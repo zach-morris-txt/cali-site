@@ -1,0 +1,82 @@
+.contactWrapper{
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+.contactColumn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    margin-top: 30px;
+}
+
+.upperWrap{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.callColumn{
+    width: 200px;
+    margin: 10px 60px 0px 0px;
+    padding: 15px;
+    border: 5px brown solid;
+    border-radius: 10px;
+}
+
+.emailColumn{
+    width: 200px;
+    margin: 10px 0px 0px 60px;
+    padding: 15px;
+    border: 5px brown solid;
+    border-radius: 10px;
+}
+
+.contactTitle{
+    margin: 0px;
+    font-size: 40px;
+}
+
+.hoursColumn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    margin: 20px 0px 20px 0px;
+    padding: 15px;
+    border: 5px brown solid;
+    border-radius: 10px;
+
+}
+
+.days{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.day{
+    margin: 8px 15px 0px 15px
+}
+
+.findColumn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    margin: 10px 0px 0px 0px;
+}
+
+.findTitle{
+    width: 200px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 40px;
+    text-align: center;
+    border: 5px brown solid;
+    border-radius: 10px;
+}
