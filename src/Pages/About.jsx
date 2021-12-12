@@ -12,6 +12,7 @@ const About = () => {
             <div className="bottomLine">
                 <div className="baseLine"></div>
             </div>
+            <div className="full"></div>
             <Footer />
         </div>
     )

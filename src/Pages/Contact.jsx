@@ -27,21 +27,22 @@ const Contact = () => {
                     <div className="hoursColumn">
                         <h2 className="contactTitle">Hours</h2>
                         <div className="days">
-                            <div className="day"><p className="contactInfo"><h4>Mon: </h4>6am-6pm</p></div>
-                            <div className="day"><p className="contactInfo"><h4>Tue: </h4>6am-6pm</p></div>
-                            <div className="day"><p className="contactInfo"><h4>Wed: </h4>6am-6pm</p></div>
-                            <div className="day"><p className="contactInfo"><h4>Thu: </h4>6am-6pm</p></div>
-                            <div className="day"><p className="contactInfo"><h4>Fri: </h4>6am-6pm</p></div>
-                            <div className="day"><p className="contactInfo"><h4>Sat: </h4>6am-6pm</p></div>
-                            <div className="day"><p className="contactInfo"><h4>Sun: </h4>6am-6pm</p></div>
+                            <div className="day"><div className="contactInfo"><div className="dayLabel">Mon: </div>6:30am-6:30pm</div></div>
+                            <div className="day"><div className="contactInfo"><div className="dayLabel">Tue: </div>6:30am-6:30pm</div></div>
+                            <div className="day"><div className="contactInfo"><div className="dayLabel">Wed: </div>6:30am-6:30pm</div></div>
+                            <div className="day"><div className="contactInfo"><div className="dayLabel">Thu: </div>6:30am-6:30pm</div></div>
+                            <div className="day"><div className="contactInfo"><div className="dayLabel">Fri: </div>6:30am-6:30pm</div></div>
+                            <div className="day"><div className="contactInfo"><div className="dayLabel">Sat: </div>6:30am-6:30pm</div></div>
+                            <div className="day"><div className="contactInfo"><div className="dayLabel">Sun: </div>7am-5pm</div></div>
                         </div>
                     </div>
                 </div>
                 <div className="findColumn">
-                    <h2 className="findTitle">Find Us</h2>
-                    <p>
-                        <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3527.545982707966!2d-82.32788138481365!3d27.85449392561663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2d19387c88ee9%3A0x61920b809cde6c36!2sCali%20Cafe!5e0!3m2!1sen!2sus!4v1639241645648!5m2!1sen!2sus" width="600" height="400" allowfullscreen="" loading="lazy"></iframe>
-                    </p>
+                    <div className="addressColumn">
+                        <h2 className="findTitle">Find Us</h2>
+                        <p className="contactInfo">10010 US-301 S, Riverview FL</p>
+                    </div>
+                    <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3527.545982707966!2d-82.32788138481365!3d27.85449392561663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2d19387c88ee9%3A0x61920b809cde6c36!2sCali%20Cafe!5e0!3m2!1sen!2sus!4v1639241645648!5m2!1sen!2sus" width="600" height="400" allowFullScreen="" loading="lazy"></iframe>
                 </div>
             </div>
             <Footer />
