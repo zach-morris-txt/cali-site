@@ -154,7 +154,7 @@ export const foodItems = [
         img: flag,
         img2: mealCuban,
         name: "Cuban Sandwich",
-        description: "• meal w/ soda and chips",
+        description: "",
     },
     {
         id: 2,
@@ -168,7 +168,7 @@ export const foodItems = [
         img: flag,
         img2: mealBreakfastCroissant,
         name: "Breakfast Croissant",
-        description: "• egg, cheese, and sausage/ bacon/ or ham",
+        description: "• sausage/ bacon/ ham",
     },
     {
         id: 4,
@@ -196,7 +196,7 @@ export const foodItems = [
         img: flag,
         img2: mealArepa,
         name: "Eggs w/ Cheesy Arepa",
-        description: "• scrambled/ fried eggs",
+        description: "• scrambled/ fried egg",
     },
     {
         id: 8,
@@ -217,9 +217,7 @@ export const foodItems = [
         img: flag,
         img2: "",
         name: "Toast",
-        description: "• ham and cheese toast",
-        description2: "• cheese toast",
-        description3: "• butter toast",
+        description: "• ham/ cheese toast",
     },
     {
         id: 11,
@@ -231,16 +229,16 @@ export const foodItems = [
     {
         id: 12,
         img: flag,
-        img2: mealMeatPotatoBall,
-        name: "Meat Potato Balls",
-        description: "",
+        img2: mealMeatPie,
+        name: "Meat Pies",
+        description: "• chicken/ beef",
     },
     {
         id: 13,
         img: flag,
-        img2: mealMeatPie,
-        name: "Meat Pies",
-        description: "• chicken/ beef",
+        img2: mealMeatPotatoBall,
+        name: "Meat Potato Balls",
+        description: "",
     },
 ]
 
