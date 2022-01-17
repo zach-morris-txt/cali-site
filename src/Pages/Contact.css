@@ -1,90 +1,796 @@
-.contactWrapper{
-    display: flex;
-    justify-content: space-around;
-    height: 80vh;
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Oswald:wght@500&family=PT+Sans:ital@1&family=PT+Serif:wght@400;700&family=Yantramanav:wght@500&display=swap');
+
+
+@media only screen and (max-width: 415px) {
+    .contactWrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topLine{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .line{
+        width: 90vw;
+        height: 7px;
+        margin: 10px 0px 20px 0px;
+        border-radius: 5px;
+        background: brown;
+    }    
+    .contactWrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .contactColumn{
+        display: flex;
+        flex-direction: column;
+        width: 94vw;
+    }
+    .upperWrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 1vh;
+    }    
+    .callColumn{
+        width: 45vw;
+        border: 3px brown solid;
+        border-radius: 10px;
+    }
+    .contactTitle{
+        width: 99%;
+        margin: 0px;
+        font-size: 1.9rem;
+        font-family: 'PT Serif', serif;
+    }
+    .contactInfo{
+        width: 98%;
+        margin: 0px 0px 10px 2px;
+        font-size: 3.6vw;
+    }
+    .emailColumn{
+        width: 45vw;
+        border: 3px brown solid;
+        border-radius: 10px;
+    }
+    .hoursColumn{
+        border: 3px brown solid;
+        border-radius: 10px;
+        margin-bottom: 1vh;
+    }
+    .days{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin: 0px;
+    }
+    .day{
+        display: flex;
+        width: 30%;
+        margin: 4px;
+    }
+    .hours{
+        width: 95%;
+        margin: 0px;
+        font-size: 3.4vw; 
+    }
+    .dayLabel{
+        font-weight: 700;
+    }    
+    .findColumn{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .addressColumn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 64vw;
+        margin: 0px 0px 20px 0px;
+        border: 3px brown solid;
+        border-radius: 10px;
+    }
+    .findTitle{
+        margin: 0px;
+        font-size: 1.9rem;
+        font-family: 'PT Serif', serif;
+        border-radius: 10px;
+    }
+    .googleMap{
+        width: 80vw;
+        margin-bottom: 3vh;
+    }
 }
 
-.contactColumn{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 50vw;
-    margin-top: 30px;
+
+@media only screen and (min-width: 415px) and (max-width: 769px) and (orientation: portrait) {
+    .contactWrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topLine{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .line{
+        width: 90vw;
+        height: 10px;
+        margin: 16px 0px 22px 0px;
+        border-radius: 5px;
+        background: brown;
+    }    
+    .contactWrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .contactColumn{
+        display: flex;
+        flex-direction: column;
+        width: 94vw;
+    }
+    .upperWrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 1vh;
+    }    
+    .callColumn{
+        width: 45vw;
+        border: 3px brown solid;
+        border-radius: 10px;
+    }
+    .contactTitle{
+        width: 99%;
+        margin: 0px 0px 0px 6px;
+        font-size: 2.6rem;
+        font-family: 'PT Serif', serif;
+        color: brown;
+    }
+    .contactInfo{
+        width: 98%;
+        margin: 0px 0px 10px 2px;
+        font-size: 3.2vw;
+    }
+    .emailColumn{
+        width: 45vw;
+        border: 3px brown solid;
+        border-radius: 10px;
+    }
+    .hoursColumn{
+        border: 3px brown solid;
+        border-radius: 10px;
+        margin-bottom: 1vh;
+    }
+    .days{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin: 0px;
+    }
+    .day{
+        display: flex;
+        width: 30%;
+        margin: 4px;
+    }
+    .hours{
+        width: 95%;
+        margin: 0px;
+        font-size: 3.2vw; 
+    }
+    .dayLabel{
+        font-weight: 700;
+    }    
+    .findColumn{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .addressColumn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 64vw;
+        margin: 0px 0px 20px 0px;
+        border: 3px brown solid;
+        border-radius: 10px;
+    }
+    .findTitle{
+        margin: 0px 0px 0px 6px;
+        font-size: 2.6rem;
+        font-family: 'PT Serif', serif;
+        border-radius: 10px;
+        color: brown;
+    }
+    .googleMap{
+        width: 90vw;
+        height: 30vh;
+        margin-bottom: 2vh;
+    }
 }
 
-.upperWrap{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+
+@media only screen and (min-width: 415px) and (max-width: 769px) and (orientation: landscape) {
+    .contactWrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topLine{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .line{
+        width: 90vw;
+        height: 10px;
+        margin: 16px 0px 22px 0px;
+        border-radius: 5px;
+        background: brown;
+    }    
+    .contactWrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .contactColumn{
+        display: flex;
+        flex-direction: column;
+        width: 94vw;
+    }
+    .upperWrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 1vh;
+    }    
+    .callColumn{
+        width: 45vw;
+        border: 3px brown solid;
+        border-radius: 10px;
+    }
+    .contactTitle{
+        width: 99%;
+        margin: 0px 0px 0px 6px;
+        font-size: 2.6rem;
+        font-family: 'PT Serif', serif;
+        color: brown;
+    }
+    .contactInfo{
+        width: 98%;
+        margin: 0px 0px 10px 2px;
+        font-size: 3.2vw;
+    }
+    .emailColumn{
+        width: 45vw;
+        border: 3px brown solid;
+        border-radius: 10px;
+    }
+    .hoursColumn{
+        border: 3px brown solid;
+        border-radius: 10px;
+        margin-bottom: 1vh;
+    }
+    .days{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin: 0px;
+    }
+    .day{
+        display: flex;
+        width: 30%;
+        margin: 4px;
+    }
+    .hours{
+        width: 95%;
+        margin: 0px;
+        font-size: 3.2vw; 
+    }
+    .dayLabel{
+        font-weight: 700;
+    }    
+    .findColumn{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .addressColumn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 64vw;
+        margin: 0px 0px 20px 0px;
+        border: 3px brown solid;
+        border-radius: 10px;
+    }
+    .findTitle{
+        margin: 0px 0px 0px 6px;
+        font-size: 2.6rem;
+        font-family: 'PT Serif', serif;
+        border-radius: 10px;
+        color: brown;
+    }
+    .googleMap{
+        width: 94vw;
+        height: 40vh;
+        margin-bottom: 4vh;
+    }
 }
 
-.callColumn{
-    width: 200px;
-    margin: 10px 60px 0px 0px;
-    padding: 15px;
-    border: 5px brown solid;
-    border-radius: 10px;
+
+@media only screen and (min-width: 769px) and (max-width: 1280px) and (orientation: portrait) {
+    .contactWrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topLine{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .line{
+        width: 90vw;
+        height: 10px;
+        margin: 4vh 0px 22px 0px;
+        border-radius: 5px;
+        background: brown;
+    }    
+    .contactWrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .contactColumn{
+        display: flex;
+        flex-direction: column;
+        width: 94vw;
+    }
+    .upperWrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 2.5vh;
+    }
+    .callColumn{
+        width: 45vw;
+        border: 3px brown solid;
+        border-radius: 10px;
+    }
+    .contactTitle{
+        width: 99%;
+        margin: 0px 0px 0px 6px;
+        font-size: 2.6rem;
+        font-family: 'PT Serif', serif;
+        color: brown;
+    }
+    .contactInfo{
+        width: 98%;
+        margin: 0px 0px 10px 8px;
+        font-size: 2vw;
+    }
+    .emailColumn{
+        width: 45vw;
+        border: 3px brown solid;
+        border-radius: 10px;
+    }
+    .hoursColumn{
+        border: 3px brown solid;
+        border-radius: 10px;
+        margin-bottom: 1vh;
+    }
+    .days{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        margin: 0px;
+    }
+    .day{
+        display: flex;
+        width: 25%;
+        margin: 4px;
+    }
+    .hours{
+        margin: 0px;
+        font-size: 2vw; 
+    }
+    .dayLabel{
+        font-weight: 700;
+    }    
+    .findColumn{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .addressColumn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 64vw;
+        margin: 2.5vh 0px 2.5vh 0px;
+        border: 3px brown solid;
+        border-radius: 10px;
+    }
+    .findTitle{
+        margin: 0px 0px 0px 6px;
+        font-size: 2.6rem;
+        font-family: 'PT Serif', serif;
+        border-radius: 10px;
+        color: brown;
+    }
+    .googleMap{
+        width: 90vw;
+        height: 30vh;
+        margin-bottom: 4vh;
+    }
 }
 
-.emailColumn{
-    width: 200px;
-    margin: 10px 0px 0px 60px;
-    padding: 15px;
-    border: 5px brown solid;
-    border-radius: 10px;
+
+@media only screen and (min-width: 769px) and (max-width: 1280px) and (orientation: landscape) {
+    .contactWrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topLine{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .line{
+        width: 90vw;
+        height: 10px;
+        margin: 15vh 0px 22px 0px;
+        border-radius: 5px;
+        background: brown;
+    }    
+    .contactWrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .contactColumn{
+        display: flex;
+        flex-direction: column;
+        width: 94vw;
+    }
+    .upperWrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 3vh;
+    }
+    .callColumn{
+        width: 45vw;
+        border: 3px brown solid;
+        border-radius: 10px;
+    }
+    .contactTitle{
+        width: 99%;
+        margin: 0px 0px 0px 6px;
+        font-size: 2.6rem;
+        font-family: 'PT Serif', serif;
+        color: brown;
+    }
+    .contactInfo{
+        width: 98%;
+        margin: 0px 0px 10px 8px;
+        font-size: 2vw;
+    }
+    .emailColumn{
+        width: 45vw;
+        border: 3px brown solid;
+        border-radius: 10px;
+    }
+    .hoursColumn{
+        border: 3px brown solid;
+        border-radius: 10px;
+        margin-bottom: 1vh;
+    }
+    .days{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        margin: 0px;
+    }
+    .day{
+        display: flex;
+        width: 25%;
+        margin: 4px;
+    }
+    .hours{
+        margin: 0px;
+        font-size: 2vw; 
+    }
+    .dayLabel{
+        font-weight: 700;
+    }    
+    .findColumn{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .addressColumn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 64vw;
+        margin: 3vh 0px 20px 0px;
+        border: 3px brown solid;
+        border-radius: 10px;
+    }
+    .findTitle{
+        margin: 0px 0px 0px 6px;
+        font-size: 2.6rem;
+        font-family: 'PT Serif', serif;
+        border-radius: 10px;
+        color: brown;
+    }
+    .googleMap{
+        width: 80vw;
+        height: 50vh;
+        margin-bottom: 4vh;
+    }
 }
 
-.contactTitle{
-    margin: 0px;
-    font-size: 40px;
+
+@media only screen and (min-width: 1281px) and (max-width: 1500px) {
+    .contactWrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topLine{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .line{
+        width: 90vw;
+        height: 1.5vh;
+        margin: 10vh 0px 5vh 0px;
+        border-radius: 5px;
+        background: brown;
+    }    
+    .contactWrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .contactColumn{
+        display: flex;
+        flex-direction: column;
+        width: 94vw;
+    }
+    .upperWrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 3vh;
+    }
+    .callColumn{
+        width: 45vw;
+        border: 0.35vw brown solid;
+        border-radius: 0.5vw;
+    }
+    .contactTitle{
+        width: 99%;
+        margin: 0px 0px 0px 6px;
+        font-size: 2.6rem;
+        font-family: 'PT Serif', serif;
+        color: brown;
+    }
+    .contactInfo{
+        width: 98%;
+        margin: 0px 0px 10px 8px;
+        font-size: 2vw;
+    }
+    .emailColumn{
+        width: 45vw;
+        border: 0.35vw brown solid;
+        border-radius: 0.5vw;
+    }
+    .hoursColumn{
+        border: 0.35vw brown solid;
+        border-radius: 0.5vw;
+        margin-bottom: 1vh;
+    }
+    .days{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        margin: 0px;
+    }
+    .day{
+        display: flex;
+        width: 25%;
+        margin: 4px;
+    }
+    .hours{
+        margin: 0px;
+        font-size: 2vw; 
+    }
+    .dayLabel{
+        font-weight: 700;
+    }    
+    .findColumn{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .addressColumn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 64vw;
+        margin: 3vh 0px 20px 0px;
+        border: 0.35vw brown solid;
+        border-radius: 0.5vw;
+    }
+    .findTitle{
+        margin: 0px 0px 0px 6px;
+        font-size: 2.6rem;
+        font-family: 'PT Serif', serif;
+        border-radius: 0.5vw;
+        color: brown;
+    }
+    .googleMap{
+        width: 80vw;
+        height: 50vh;
+        margin-bottom: 4vh;
+    }
 }
 
-.hoursColumn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 450px;
-    margin: 20px 0px 20px 0px;
-    padding: 15px;
-    border: 5px brown solid;
-    border-radius: 10px;
-}
 
-.days{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.day{
-    margin: 8px 15px 0px 15px
-}
-
-.findColumn{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 50vw;
-    margin: 10px 0px 0px 0px;
-}
-
-.addressColumn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 220px;
-    margin: 30px 0px 20px 0px;
-    padding: 15px;
-    border: 5px brown solid;
-    border-radius: 10px;
-}
-
-.findTitle{
-    width: 200px;
-    margin: 0px;
-    font-size: 40px;
-    border-radius: 10px;
+@media only screen and (min-width: 1501px) {
+    .contactWrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topLine{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .line{
+        width: 90vw;
+        height: 1.5vh;
+        margin: 12vh 0px 5vh 0px;
+        border-radius: 5px;
+        background: brown;
+    }    
+    .contactWrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .contactColumn{
+        display: flex;
+        flex-direction: column;
+        width: 94vw;
+    }
+    .upperWrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 3vh;
+    }
+    .callColumn{
+        width: 45vw;
+        border: 0.35vw brown solid;
+        border-radius: 0.5vw;
+    }
+    .contactTitle{
+        width: 99%;
+        margin: 0px 0px 0px 6px;
+        font-size: 2.6rem;
+        font-family: 'PT Serif', serif;
+        color: brown;
+    }
+    .contactInfo{
+        width: 98%;
+        margin: 0px 0px 10px 8px;
+        font-size: 2vw;
+    }
+    .emailColumn{
+        width: 45vw;
+        border: 0.35vw brown solid;
+        border-radius: 0.5vw;
+    }
+    .hoursColumn{
+        border: 0.35vw brown solid;
+        border-radius: 0.5vw;
+        margin-bottom: 1vh;
+    }
+    .days{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        margin: 0px;
+    }
+    .day{
+        display: flex;
+        width: 25%;
+        margin: 4px;
+    }
+    .hours{
+        margin: 0px;
+        font-size: 2vw; 
+    }
+    .dayLabel{
+        font-weight: 700;
+    }    
+    .findColumn{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .addressColumn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 64vw;
+        margin: 3vh 0px 20px 0px;
+        border: 0.35vw brown solid;
+        border-radius: 0.5vw;
+    }
+    .findTitle{
+        margin: 0px 0px 0px 6px;
+        font-size: 2.6rem;
+        font-family: 'PT Serif', serif;
+        border-radius: 0.5vw;
+        color: brown;
+    }
+    .googleMap{
+        width: 80vw;
+        height: 50vh;
+        margin-bottom: 4vh;
+    }
 }

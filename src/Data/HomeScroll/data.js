@@ -7,6 +7,4 @@ export const scrollImages = [
     "./HomeScroll/Images/6.jpg",
     "./HomeScroll/Images/7.jpg",
     "./HomeScroll/Images/8.jpg",
-    "./HomeScroll/Images/9.jpg",
-    "./HomeScroll/Images/10.jpg",
 ]

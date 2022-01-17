@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Oswald:wght@500&family=PT+Sans:ital@1&family=PT+Serif:wght@400;700&family=Yantramanav:wght@500&display=swap');
+
+
+@media screen and (max-width: 415px) {
+    .container{
+        display:flex;
+        justify-content: center;
+        width: 100%;
+        height: 13.5vh;
+        background: brown;
+    }
+    .itemWrapper{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 96%;
+        height: 11vh;
+        margin-top: 4px;
+        z-index: 3;
+        background: brown;
+        border: 2px white solid;
+        border-radius: 8px;
+    }
+    .itemWrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 14%;
+        height: 50%;
+        margin: 0px 2px 0px 2px;
+        background: white;
+        text-align: center;
+        border: 3px #8b2c2c double;
+        border-radius: 6px;    
+    }
+    .item{
+        width: 99%;
+        font-size: 3.2vw;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        color: brown;
+        border: none;
+    }
+    .logoWrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 18%;
+        height: 90%;
+        background: white;
+        border-radius: 18px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        width: 98%;
+        height: 98%;
+        background: white;
+        border-radius: 50%;
+    }
+    #caliLogo{
+        width:120%;
+        height: 120%;
+    }
+}
+
+
+@media only screen and (min-width: 415px) and (max-width: 769px) and (orientation: portrait) {
+    .container{
+        display:flex;
+        justify-content: center;
+        width: 100%;
+        height: 15vh;
+        background: brown;
+    }
+    .itemWrapper{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 96%;
+        height: 13vh;
+        margin-top: 4px;
+        z-index: 3;
+        background: brown;
+        border: 2px white solid;
+        border-radius: 8px;
+    }
+    .itemWrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 14%;
+        height: 50%;
+        margin: 0px 4px 0px 4px;
+        background: white;
+        text-align: center;
+        border: 3px #8b2c2c double;
+        border-radius: 6px;    
+    }
+    .item{
+        width: 99%;
+        font-size: 3.2vw;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        color: brown;
+        border: none;
+    }
+    .logoWrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 17vw;
+        height: 16vw;
+        background: white;
+        border-radius: 18px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        width: 98%;
+        height: 98%;
+        background: white;
+        border-radius: 50%;
+    }
+    #caliLogo{
+        width:110%;
+        height: 110%;
+    }
+}
+
+
+@media only screen and (min-width: 415px) and (max-width: 769px) and (orientation: landscape) {
+    .container{
+        display:flex;
+        justify-content: center;
+        width: 100%;
+        height: 18vh;
+        background: brown;
+    }
+    .itemWrapper{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 96%;
+        height: 15vh;
+        margin-top: 4px;
+        z-index: 3;
+        background: brown;
+        border: 2px white solid;
+        border-radius: 8px;
+    }
+    .itemWrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 14%;
+        height: 50%;
+        margin: 0px 4px 0px 4px;
+        background: white;
+        text-align: center;
+        border: 3px #8b2c2c double;
+        border-radius: 6px;    
+    }
+    .item{
+        width: 99%;
+        font-size: 2.3vw;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        color: brown;
+    }
+    .logoWrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 12vw;
+        height: 10vw;
+        background: white;
+        border-radius: 18px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        width: 98%;
+        height: 98%;
+        background: white;
+        border-radius: 50%;
+    }
+    #caliLogo{
+        width:100%;
+        height: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1280px) and (orientation: portrait) {
+    .container{
+        display:flex;
+        justify-content: center;
+        width: 100%;
+        height: 14vh;
+        background: brown;
+    }
+    .itemWrapper{
+        display:flex;
+        justify-content: space-between;
+        width: 90vw;
+        height: 16vh;
+        z-index: 3;
+        background: brown;
+        border: 4px white double;
+        border-radius: 10px;
+    }
+    .itemWrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 13%;
+        height: 58%;
+        margin: 2% 6px 0px 6px;
+        text-align: center;
+        background: white;
+        border-radius: 8px;    
+    }
+    .item{
+        width: 99%;
+        font-size: 3.2vw;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: 2px brown underline;
+        color: brown;
+    }
+    .logoWrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 22vw;
+        height: 22vw;
+        border-radius: 50%;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        width: 98%;
+        height:  98%;
+        background: white;
+        border-radius: 50%;
+    }
+    #caliLogo{
+        width: 108%;
+        height:  108%;
+    }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1280px) and (orientation: landscape) {
+    .container{
+        display:flex;
+        justify-content: center;
+        width: 100%;
+        height: 14vh;
+        background: brown;
+    }
+    .itemWrapper{
+        display:flex;
+        justify-content: space-between;
+        width: 80vw;
+        height: 17vh;
+        z-index: 3;
+        background: brown;
+        border: 4px white double;
+        border-radius: 10px;
+    }
+    .itemWrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 13%;
+        height: 58%;
+        margin: 2% 6px 0px 6px;
+        text-align: center;
+        background: white;
+        border-radius: 8px;    
+    }
+    .item{
+        width: 99%;
+        font-size: 1.8vw;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: 2px brown underline;
+        color: brown;
+    }
+    .logoWrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 19vw;
+        height: 19vw;
+        border-radius: 50%;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        width: 98%;
+        height:  98%;
+        background: white;
+        border-radius: 50%;
+    }
+    #caliLogo{
+        width: 108%;
+        height:  108%;
+    }
+}
+
+
+@media only screen and (min-width: 1281px) {
+    .container{
+        display:flex;
+        justify-content: center;
+        width: 100%;
+        height: 12vh;
+        background: brown;
+    }
+    .itemWrapper{
+        display:flex;
+        justify-content: space-between;
+        width: 90vw;
+        height: 16vh;
+        z-index: 3;
+        background: brown;
+        border: 6px white double;
+        border-radius: 1vw;
+    }
+    .itemWrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 13%;
+        height: 68%;
+        margin: 1vh 1vw 0px 1vw;
+        text-align: center;
+        background: white;
+        border-radius: 0.6vw;    
+    }
+    .item{
+        font-size: 1.8vw;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: 0.12vw brown underline;
+        color: brown;
+    }
+    .logoWrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15vw;
+        height: 15vw;
+        border-radius: 50%;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        width: 98%;
+        height:  98%;
+        background: white;
+        border-radius: 50%;
+    }
+    #caliLogo{
+        width: 110%;
+        height:  110%;
+    }
+}

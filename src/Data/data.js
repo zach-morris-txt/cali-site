@@ -4,8 +4,8 @@ import photo3 from './HomeScroll/Images/3.jpg'
 import photo4 from './HomeScroll/Images/4.jpg'
 import photo5 from './HomeScroll/Images/5.jpg'
 import photo6 from './HomeScroll/Images/6.jpg'
-import photo7 from './HomeScroll/Images/9.jpg'
-import photo8 from './HomeScroll/Images/10.jpg'
+import photo7 from './HomeScroll/Images/7.jpg'
+import photo8 from './HomeScroll/Images/8.jpg'
 
 
 export const scrollImages = [
@@ -172,7 +172,7 @@ export const scrollImages = [
 ]
 
 
-export const scrollTestimonials = [
+export var scrollTestimonials = [
     {
         id: 1,
         name: "Alisha D.",
@@ -189,19 +189,19 @@ export const scrollTestimonials = [
         id: 3,
         name: "Jenn C.",
         site: "Yelp",
-        text: "Feels like 'Cheers' in this café. Every one knows your name. :) Delicious coffee, food, and of course the pastries are amazing!!...",
+        text: "Feels like 'Cheers' in this café. Everyone knows your name. :) Delicious coffee, food, and, of course, the pastries are amazing!!...",
     },
     {
         id: 4,
         name: "Ryan S.",
         site: "Yelp",
-        text: "Nice little coffee place out of nowhere. They serve Cafe De Columbia and the coffee is excellent. Get away from the chains and support a place like this...",
+        text: "Nice little coffee place out of nowhere. They serve Cafe de Columbia and the coffee is excellent. Get away from the chains and support a place like this...",
     },
     {
         id: 5,
         name: "Kelly C.",
         site: "Yelp",
-        text: "The empanadas and Cuban sandwiches are to die for.  Stop in and give this new local Cafe some love. Keeping them as a place that knows its customers and your name is hard to replace...",
+        text: "The empanadas and Cuban sandwiches are to die for. Stop in and give this new, local Cafe some love. Keeping them -as a place that knows its customers and your name- is hard...",
     },
     {
         id: 6,
@@ -219,7 +219,7 @@ export const scrollTestimonials = [
         id: 8,
         name: "Miranda C.",
         site: "Yelp",
-        text: "$14 at starbucks could get you two drinks but here we got 4 pastries and two iced coffees! the food was AMAZING!...",
+        text: "$14 at Starbucks could get you two drinks but here we got 4 pastries and 2 iced coffees! The food was AMAZING!...",
     },
     {
         id: 9,
@@ -231,7 +231,7 @@ export const scrollTestimonials = [
         id: 10,
         name: "Mitchell R.",
         site: "Google",
-        text: "Guava and cheese is delicious! Huge portion stuffed with filling. Their standard hot coffee was great on its own. Can't wait to come back...",
+        text: "Guava & Cheese is delicious! Huge portion stuffed with filling. Their standard hot coffee was great on its own. Can't wait to come back...",
     },
     {
         id: 11,
@@ -243,31 +243,31 @@ export const scrollTestimonials = [
         id: 12,
         name: "Ronaldo S.",
         site: "Google",
-        text: "This place is amazing, everything here tastes wonderful and fresh. The staff are pleasant and very welcoming. Definitely recommend anyone to come here !...",
+        text: "This place is amazing, everything here tastes wonderful and fresh. The staff are pleasant and very welcoming. Definitely recommend anyone to come here!...",
     },
     {
         id: 13,
         name: "Fifi W.",
         site: "Google",
-        text: "Delicious cafe con leche, great service with a super cute ambiance. Loved the pandebono and pastries. Its a warm cozy spot!...",
+        text: "Delicious Cafe con Leche, great service with a super cute ambiance. Loved the Pandebono and pastries. It's a warm cozy spot!...",
     },
     {
         id: 14,
         name: "Danielle R.",
         site: "Google",
-        text: "This place is awesome. Everyone is so friendly and helpful. The coffee is great, every thing we've tried has been on point. A hidden gem in Riverview for sure...",
+        text: "This place is awesome. Everyone is so friendly and helpful. The coffee is great, everything we've tried has been on point. A hidden gem in Riverview for sure...",
     },
     {
         id: 15,
         name: "Anonymous",
         site: "Google",
-        text: "What a wonderful Cafe. The staff was very kind and considerate. The coffee aromatic and the pastries divine. It's nice to see the Riverview area get a nice cafe where you can meet friends or family, have a pastry, and coffee or a wonderful lunch!...",
+        text: "What a wonderful Cafe. The staff was very kind and considerate. The coffee aromatic and the pastries divine. It's nice to see the Riverview area get a nice cafe where you can meet friends or family...",
     },
     {
         id: 16,
         name: "Danyelle Y.",
         site: "Google",
-        text: "Starbucks who? Dunkin Donuts who? There is no coffee that I haven't tried and believe me I've tried quite a few. There are no words for how pleasant and comforting it is to enjoy the quality at Cali Cafe...",
+        text: "Starbucks who? DunkinDonuts who? There is no coffee that I haven't tried and, believe me, I've tried quite a few. There are no words for how pleasant and comforting it is to enjoy the quality at Cali Cafe...",
     },
     {
         id: 17,
@@ -285,25 +285,25 @@ export const scrollTestimonials = [
         id: 19,
         name: "Travis V.",
         site: "Google",
-        text: "When you think of 'Cuban sandwich' you think of Tampa. I am born and raised in Tampa and have had pretty much every Cuban food around. Cali Cafe has my vote. Light and full of flavor with a homemade bread baked daily...",
+        text: "When you think of 'Cuban sandwich' you think of Tampa. I am born and raised in Tampa and have had pretty much all Cuban food around. Cali Cafe has my vote. Light and full of flavor with homemade bread baked daily...",
     },
     {
         id: 20,
         name: "Melissa S.",
         site: "Google",
-        text: "This is hands down the best little jewel in Riverview. We have had them cater events for our school on multiple occasions as well as personal staff member orders and the food is always PHENOMENAL...",
+        text: "This is hands down the best little jewel in Riverview. We've had them cater events for our school on multiple occasions as well as personal staff member orders and the food is always PHENOMENAL...",
     },
     {
         id: 21,
         name: "Chidubem N.",
         site: "Google",
-        text: "Amazing and an excellent place for a student to study for however long they choose. I went there to attend zoom meetings for my school and it was most enjoyable and relaxing, not to mention the amazing smell in the air....",
+        text: "Amazing and an excellent place for a student to study for however long they choose. I went there to attend Zoom meetings for my school and it was most enjoyable and relaxing, not to mention the amazing smell in the air....",
     },
     {
         id: 22,
         name: "Jim T.",
         site: "Google",
-        text: "My favorite coffee place in Riverview. Great foods and friendly staff.  Since I am a home coffee roaster, I am very picky about drinking others' black coffee. The Cali Cafe has the best coffee in the area (perfectly roasted)...",
+        text: "My favorite coffee place in Riverview. Great foods and friendly staff. Since I am a home coffee roaster, I am very picky about drinking others' black coffee. Cali Cafe has the best coffee in the area (perfectly roasted)...",
     },
     {
         id: 23,
@@ -315,7 +315,7 @@ export const scrollTestimonials = [
         id: 24,
         name: "Michael B.",
         site: "Google",
-        text: "Loved this place.  Food is incredible.  Try the Cuban!...",
+        text: "Loved this place. Food is incredible. Try the Cuban!...",
     },
     {
         id: 25,
@@ -333,19 +333,19 @@ export const scrollTestimonials = [
         id: 27,
         name: "Kelly T.",
         site: "Yelp",
-        text: "I come here many times per week for cafe con leche and pandebono. It is, hands down, the best in the area. Their coffee is superior to all, their baked goods are delicious...",
+        text: "I come here many times per week for Cafe con Leche and Pandebono. It is, hands down, the best in the area. Their coffee is superior to all, their baked goods are delicious...",
     },
     {
         id: 28,
         name: "April D.",
         site: "Yelp",
-        text: "Run, don't walk to this awesome cafe/bakery!! Everything has been fresh and delicious- so happy to have this in Riverview!!...",
+        text: "Run, don't walk to this awesome cafe/bakery!! Everything has been fresh and delicious -so happy to have this in Riverview!!...",
     },
     {
         id: 29,
         name: "Dione M.",
         site: "Yelp",
-        text: "Homemade, made to order, pastries, sandwiches, best cafe con leche. Amazing fresh and delicious....",
+        text: "Homemade, made to order, pastries, sandwiches, best Cafe con Leche. Amazing, fresh, and delicious....",
     },
     {
         id: 30,
@@ -363,7 +363,7 @@ export const scrollTestimonials = [
         id: 32,
         name: "Richard S.",
         site: "Google",
-        text: "Best coffee hand's down and you have to try the Cuban , trust me it's good....",
+        text: "Best coffee hands down and you have to try the Cuban, trust me, it's good....",
     },
     {
         id: 33,
@@ -381,19 +381,19 @@ export const scrollTestimonials = [
         id: 35,
         name: "Plinio A.",
         site: "Google",
-        text: "Tried their famous cuban sandwich and it was indeed very good! Empanadas are also as good as it gets, can’t wait to come back for coffee and pastries!...",
+        text: "Tried their famous Cuban sandwich and it was indeed very good! Empanadas are also as good as it gets, can’t wait to come back for coffee and pastries!...",
     },
     {
         id: 36,
         name: "Nigel P.",
         site: "Google",
-        text: "Great coffee, tasty pastries,  delicious Cuban sandwiches! This place has a relaxing ambience great for meeting friends and clients. Staff are helpful and the owner is very friendly and always up for a chat. Go there!!...",
+        text: "Great coffee, tasty pastries, delicious Cuban sandwiches! This place has a relaxing ambiance great for meeting friends and clients. Staff are helpful and the owner is very friendly and always up for a chat. Go there!!...",
     },
     {
         id: 37,
         name: "Amanda S.",
         site: "Google",
-        text: "We tried several of the pastries, a few coffees and empanadas - all buenísimos!!! Definitely going to stop by again...",
+        text: "We tried several of the pastries, a few coffees, and empanadas - all buenísimos!!! Definitely going to stop by again...",
     },
     {
         id: 38,
@@ -405,12 +405,12 @@ export const scrollTestimonials = [
         id: 39,
         name: "Shauna G.",
         site: "Google",
-        text: "As I walked into this Cafe,  I was greeted so warmly that I felt like I was part of the family.  My espresso and pastries were on point!  The customer service and quality treats have made quite an impression on my tummy and on my heart...",
+        text: "As I walked into this Cafe, I was greeted so warmly that I felt like I was part of the family. My espresso and pastries were on point! The customer service and quality treats have made quite an impression on my tummy and on my heart...",
     },
     {
         id: 40,
         name: "Diane L.",
         site: "Google",
-        text: "Everytime we visit our daughter in Riverview Cali Cafe is first on my list. Delicious delights, never disappointed...",
+        text: "Everytime we visit our daughter in Riverview, Cali Cafe is first on my list. Delicious delights, never disappointed...",
     },
 ]

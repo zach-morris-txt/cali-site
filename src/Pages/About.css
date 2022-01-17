@@ -1,4 +1,506 @@
-.full{
-    height: 61vh;
-    border: 1.5px red solid;
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Oswald:wght@500&family=PT+Sans:ital@1&family=PT+Serif:wght@400;700&family=Yantramanav:wght@500&display=swap');
+
+
+@media screen and (max-width: 415px) {
+    .aboutTopLine{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutLine{
+        width: 90vw;
+        height: 7px;
+        margin: 10px 0px 20px 0px;
+        border-radius: 5px;
+        background: brown;
+    }
+    .contentWrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100% -37px;
+    }
+    .aboutText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        height: 80%;
+        text-align: center;
+    }
+    #aboutIntro{
+        font-size: 4.8vw;
+        font-family: 'Lora', italic;
+        font-weight: 400;
+        margin: 0 0 6px 0;
+    }
+    .aboutParagraphs{
+        width: 96%;
+        margin-bottom: 0px;
+        font-size: 3.5vw;
+        text-align: center;   
+    }
+    #italicize{
+        font-size: 3.4vw;
+        font-style: italic;
+        font-weight: 500;
+    }
+    .sectionImages{
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+        height: 9.8rem;
+        margin: 20px;
+    }
+    .aboutImg{
+        width: 46%;
+        height: 9.5rem;
+        margin: 0px 0px 20px 0px;
+        border: 2px chocolate solid;
+        border-radius: 35px;
+        object-fit: cover;
+    }
+}
+
+
+@media only screen and (min-width: 415px) and (max-width: 769px) and (orientation: portrait) {
+    .aboutTopLine{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutLine{
+        width: 90vw;
+        height: 10px;
+        margin: 16px 0px 22px 0px;
+        border-radius: 5px;
+        background: brown;
+    }
+    .contentWrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100% -37px;
+    }
+    .aboutText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 93%;
+        height: 80%;
+        text-align: center;
+    }
+    #aboutIntro{
+        margin: 0;
+        font-size: 4.8vw;
+        font-family: 'Lora', italic;
+        font-weight: 500;
+    }
+    .aboutParagraphs{
+        width: 99%;
+        margin: 15px 0px 0px 0px;
+        font-size: 3vw;
+        text-align: center;   
+    }
+    #italicize{
+        font-size: 3.4vw;
+        font-style: italic;
+        font-weight: 500;
+    }
+    .sectionImages{
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+        height: 34vh;
+        margin: 20px;
+    }
+    .aboutImg{
+        width: 46%;
+        height: 30vh;
+        margin: 10px 0px 20px 0px;
+        border: 2px chocolate solid;
+        border-radius: 35px;
+        object-fit: cover;
+    }
+}
+
+
+@media only screen and (min-width: 415px) and (max-width: 769px) and (orientation: landscape) {
+    .aboutTopLine{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutLine{
+        width: 90vw;
+        height: 10px;
+        margin: 16px 0px 22px 0px;
+        border-radius: 5px;
+        background: brown;
+    }
+    .contentWrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100% -37px;
+    }
+    .aboutText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 93%;
+        height: 80%;
+        text-align: center;
+    }
+    #aboutIntro{
+        margin: 0;
+        font-size: 4.8vw;
+        font-family: 'Lora', italic;
+        font-weight: 500;
+    }
+    .aboutParagraphs{
+        width: 99%;
+        margin: 15px 0px 0px 0px;
+        font-size: 3vw;
+        text-align: center;   
+    }
+    #italicize{
+        font-size: 3.4vw;
+        font-style: italic;
+        font-weight: 500;
+    }
+    .sectionImages{
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+        height: 45vh;
+        margin: 20px;
+    }
+    .aboutImg{
+        width: 36%;
+        height: 40vh;
+        margin: 10px 0px 20px 0px;
+        border: 2px chocolate solid;
+        border-radius: 35px;
+        object-fit: cover;
+    }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1280px) and (orientation: portrait) {
+    .aboutTopLine{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutLine{
+        width: 90vw;
+        height: 10px;
+        margin: 4vh 0px 22px 0px;
+        border-radius: 5px;
+        background: brown;
+    }
+    .contentWrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100% -37px;
+    }
+    .aboutText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 93%;
+        height: 80%;
+        text-align: center;
+    }
+    #aboutIntro{
+        margin: 2vh 0px 0px 0px;
+        font-size: 4.6vw;
+        font-family: 'Lora', italic;
+        font-weight: 500;
+    }
+    .aboutParagraphs{
+        width: 99%;
+        margin: 15px 0px 0px 0px;
+        font-size: 2.4vw;
+        text-align: center;   
+    }
+    #italicize{
+        font-size: 1.6vw;
+        font-style: italic;
+        font-weight: 500;
+    }
+    .sectionImages{
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+        height: 38vh;
+        margin: 2vh 0px 0px 0px;
+    }
+    .aboutImg{
+        width: 45%;
+        height: 35vh;
+        margin: 10px 0px 20px 0px;
+        border: 4px chocolate solid;
+        border-radius: 35px;
+        object-fit: cover;
+    }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1280px) and (orientation: landscape) {
+    .aboutTopLine{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutLine{
+        width: 90vw;
+        height: 10px;
+        margin: 15vh 0px 22px 0px;
+        border-radius: 5px;
+        background: brown;
+    }
+    .contentWrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100% -37px;
+    }
+    .aboutText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 93%;
+        height: 80%;
+        text-align: center;
+    }
+    #aboutIntro{
+        margin: 2vh 0px 0px 0px;
+        font-size: 3.5vw;
+        font-family: 'Lora', italic;
+        font-weight: 500;
+    }
+    .aboutParagraphs{
+        width: 99%;
+        margin: 15px 0px 0px 0px;
+        font-size: 1.6vw;
+        text-align: center;   
+    }
+    #italicize{
+        font-size: 1.6vw;
+        font-style: italic;
+        font-weight: 500;
+    }
+    .sectionImages{
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+        height: 62vh;
+        margin: 4vh 0px 0px 0px;
+    }
+    .aboutImg{
+        width: 42%;
+        height: 58vh;
+        margin: 10px 0px 20px 0px;
+        border: 4px chocolate solid;
+        border-radius: 35px;
+        object-fit: cover;
+    }
+}
+
+
+@media only screen and (min-width: 1281px) and (max-width: 1500px) {
+    .aboutWrap{
+        width: 100%;
+    }
+    .aboutTopLine{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutLine{
+        width: 90vw;
+        height: 1.5vh;
+        margin: 10vh 0px 5vh 0px;
+        border-radius: 5px;
+        background: brown;
+    }
+    .contentWrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100% -37px;
+    }
+    .aboutText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        height: 80%;
+        text-align: center;
+    }
+    #aboutIntro{
+        margin: 2vh 0px 0px 0px;
+        font-size: 3.5vw;
+        font-family: 'Lora', italic;
+        font-weight: 500;
+    }
+    .aboutParagraphs{
+        width: 99%;
+        margin: 15px 0px 0px 0px;
+        font-size: 1.6vw;
+        text-align: center;   
+    }
+    #italicize{
+        font-size: 1.6vw;
+        font-style: italic;
+        font-weight: 500;
+    }
+    .sectionImages{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 66vh;
+        margin: 4vh 0px 0px 0px;
+    }
+    .aboutImg{
+        width: 42%;
+        height: 60vh;
+        margin: 10px 0px 20px 0px;
+        border: 4px chocolate solid;
+        border-radius: 35px;
+        object-fit: cover;
+    }
+}
+
+
+@media only screen and (min-width: 1501px) and (max-width: 2500px) {
+    .aboutWrap{
+        width: 100%;
+    }
+    .aboutTopLine{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutLine{
+        width: 90vw;
+        height: 1.5vh;
+        margin: 12vh 0px 5vh 0px;
+        border-radius: 5px;
+        background: brown;
+    }
+    .contentWrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100% -37px;
+    }
+    .aboutText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        height: 80%;
+        text-align: center;
+    }
+    #aboutIntro{
+        margin: 2vh 0px 0px 0px;
+        font-size: 3.5vw;
+        font-family: 'Lora', italic;
+        font-weight: 500;
+    }
+    .aboutParagraphs{
+        width: 99%;
+        margin: 15px 0px 0px 0px;
+        font-size: 1.6vw;
+        text-align: center;   
+    }
+    #italicize{
+        font-size: 1.6vw;
+        font-style: italic;
+        font-weight: 500;
+    }
+    .sectionImages{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 68vh;
+        margin: 4vh 0px 0px 0px;
+    }
+    .aboutImg{
+        width: 40%;
+        height: 62vh;
+        margin: 10px 0px 20px 0px;
+        border: 4px chocolate solid;
+        border-radius: 35px;
+        object-fit: fill;
+    }
+}
+
+
+@media only screen and (min-width: 2501px) {
+    .aboutWrap{
+        width: 100%;
+    }
+    .aboutTopLine{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutLine{
+        width: 90vw;
+        height: 1.5vh;
+        margin: 10vh 0px 5vh 0px;
+        border-radius: 5px;
+        background: brown;
+    }
+    .contentWrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100% -37px;
+    }
+    .aboutText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 75%;
+        height: 80%;
+        text-align: center;
+    }
+    #aboutIntro{
+        margin: 2vh 0px 4vh 0px;
+        font-size: 3vw;
+        font-family: 'Lora', italic;
+        font-weight: 500;
+    }
+    .aboutParagraphs{
+        width: 99%;
+        margin: 15px 0px 0px 0px;
+        font-size: 1.6vw;
+        text-align: center;   
+    }
+    #italicize{
+        font-size: 1.6vw;
+        font-style: italic;
+        font-weight: 500;
+    }
+    .sectionImages{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 68vh;
+        margin: 6vh 0px 0px 0px;
+    }
+    .aboutImg{
+        width: 44%;
+        height: 62vh;
+        margin: 10px 0px 20px 0px;
+        border: 4px chocolate solid;
+        border-radius: 35px;
+        object-fit: cover;
+    }
 }

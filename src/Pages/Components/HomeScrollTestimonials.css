@@ -1,83 +1,565 @@
-.wrapperTest{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    overflow: hidden;
-    transition: ease-out 1000ms;
-}
-.sliderTest{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 250px;
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Oswald:wght@500&family=PT+Sans:ital@1&family=PT+Serif:wght@400;700&family=Yantramanav:wght@500&display=swap');
+
+
+@media only screen and (max-width: 415px) {
+    .wrapperTest{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 55%;
+        transition: ease-out 1000ms;
+    }
+    .sliderTest{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 35vh;
+    }
+    .slidesTest{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 4000vw;
+        height: 35vh;
+    }
+    .slideWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+    .slideContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 90vw;
+        height: 30vh;
+        border-radius: 18px;
+        background-color: rgba(0,0,0,.5);
+    }
+    .testimoneyWrapper{
+        display: flex;
+        align-items: top;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    .leftQuote{
+        font-size: 10vw;
+        margin: 0px 0px 0px 4px;
+        color: white;
+    }
+    .rightQuote{
+        font-size: 10vw;
+        margin: 0px 4px 0px 0px;
+        color: white; 
+    }
+    .slideTestimoneyWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slideTestimoney{
+        display: flex;
+        width: 90%;
+        margin: 10px 0px 6px 0px;
+        font-size: 3.7vw;
+        font-family: 'PT Sans', sans-serif;
+        text-align: center;
+        color: white;
+    }
+    .slideInfos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 4vw;
+        font-family: 'PT Sans';
+        font-weight: 500;
+        color: white;
+    }
+    .slideName{
+        margin-right: 40px;
+    }
+    .slideInfo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slideInfo1{
+        color: #0099CC;
+    }
+    .slideInfo2{
+        color: #EA4335;
+    }
 }
 
-.slidesTest{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 4000vw;
-    height: 250px;
+
+@media only screen and (min-width: 415px) and (max-width: 769px) and (orientation: portrait) {
+    .wrapperTest{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 55%;
+        transition: ease-out 1000ms;
+    }
+    .sliderTest{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 35vh;
+    }
+    .slidesTest{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 4000vw;
+        height: 35vh;
+    }
+    .slideWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+    .slideContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 92vw;
+        height: 30vh;
+        border-radius: 18px;
+        background-color: rgba(0,0,0,.5);
+    }
+    .testimoneyWrapper{
+        display: flex;
+        align-items: top;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    .leftQuote{
+        font-size: 10vw;
+        margin: 0px 0px 0px 8px;
+        color: white;
+    }
+    .rightQuote{
+        font-size: 10vw;
+        margin: 0px 8px 0px 0px;
+        color: white; 
+    }
+    .slideTestimoneyWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slideTestimoney{
+        display: flex;
+        width: 90%;
+        margin: 10px 0px 6px 0px;
+        font-size: 3.1vw;
+        font-family: 'PT Sans', sans-serif;
+        text-align: center;
+        color: white;
+    }
+    .slideInfos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3.6vw;
+        font-family: 'PT Sans';
+        font-weight: 500;
+        color: white;
+    }
+    .slideName{
+        margin-right: 40px;
+    }
+    .slideInfo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slideInfo1{
+        color: #0099CC;
+    }
+    .slideInfo2{
+        color: #EA4335;
+    }
 }
 
-.slideWrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
+
+@media only screen and (min-width: 415px) and (max-width: 769px) and (orientation: landscape) {
+    .wrapperTest{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 46%;
+        transition: ease-out 1000ms;
+    }
+    .sliderTest{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 35vh;
+    }
+    .slidesTest{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 4000vw;
+        height: 35vh;
+    }
+    .slideWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+    .slideContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 92vw;
+        height: 35vh;
+        border-radius: 18px;
+        background-color: rgba(0,0,0,.5);
+    }
+    .testimoneyWrapper{
+        display: flex;
+        align-items: top;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    .leftQuote{
+        font-size: 8.5vw;
+        margin: 0px 0px 0px 8px;
+        color: white;
+    }
+    .rightQuote{
+        font-size: 8.5vw;
+        margin: 0px 8px 0px 0px;
+        color: white; 
+    }
+    .slideTestimoneyWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slideTestimoney{
+        display: flex;
+        width: 90%;
+        margin: 10px 0px 6px 0px;
+        font-size: 2.2vw;
+        font-family: 'PT Sans', sans-serif;
+        text-align: center;
+        color: white;
+    }
+    .slideInfos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3.2vw;
+        font-family: 'PT Sans';
+        font-weight: 500;
+        color: white;
+    }
+    .slideName{
+        margin-right: 40px;
+    }
+    .slideInfo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slideInfo1{
+        color: #0099CC;
+    }
+    .slideInfo2{
+        color: #EA4335;
+    }
 }
 
-.slideContent{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 60vw;
-    height: 140px;
-    padding: 10px;
-    border-radius: 20px;
-    background-color: rgba(0,0,0,.5);
+
+@media only screen and (min-width: 769px) and (max-width: 1280px) and (orientation: portrait) {
+    .wrapperTest{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 55%;
+        transition: ease-out 1000ms;
+    }
+    .sliderTest{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 35vh;
+    }
+    .slidesTest{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 4000vw;
+        height: 35vh;
+    }
+    .slideWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+    .slideContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 92vw;
+        height: 28vh;
+        border-radius: 22px;
+        background-color: rgba(0,0,0,.55);
+    }
+    .testimoneyWrapper{
+        display: flex;
+        align-items: top;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    .leftQuote{
+        font-size: 7.5vw;
+        margin: 0px 0px 0px 8px;
+        color: white;
+    }
+    .rightQuote{
+        font-size: 7.5vw;
+        margin: 0px 8px 0px 0px;
+        color: white; 
+    }
+    .slideTestimoneyWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slideTestimoney{
+        display: flex;
+        width: 90%;
+        margin: 10px 0px 6px 0px;
+        font-size: 3.2vw;
+        font-family: 'PT Sans', sans-serif;
+        text-align: center;
+        color: white;
+    }
+    .slideInfos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.8vw;
+        font-family: 'PT Sans';
+        font-weight: 500;
+        color: white;
+    }
+    .slideName{
+        margin-right: 40px;
+    }
+    .slideInfo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slideInfo1{
+        color: #0099CC;
+    }
+    .slideInfo2{
+        color: #EA4335;
+    }
 }
 
-.testimoneyWrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+@media only screen and (min-width: 769px) and (max-width: 1280px) and (orientation: landscape) {
+    .wrapperTest{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 55%;
+        transition: ease-out 1000ms;
+    }
+    .sliderTest{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 35vh;
+    }
+    .slidesTest{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 4000vw;
+        height: 35vh;
+    }
+    .slideWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+    .slideContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 92vw;
+        height: 32vh;
+        border-radius: 22px;
+        background-color: rgba(0,0,0,.55);
+    }
+    .testimoneyWrapper{
+        display: flex;
+        align-items: top;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    .leftQuote{
+        font-size: 7.5vw;
+        margin: 0px 0px 0px 8px;
+        color: white;
+    }
+    .rightQuote{
+        font-size: 7.5vw;
+        margin: 0px 8px 0px 0px;
+        color: white; 
+    }
+    .slideTestimoneyWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slideTestimoney{
+        display: flex;
+        width: 90%;
+        margin: 10px 0px 6px 0px;
+        font-size: 2.2vw;
+        font-family: 'PT Sans', sans-serif;
+        text-align: center;
+        color: white;
+    }
+    .slideInfos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.4vw;
+        font-family: 'PT Sans';
+        font-weight: 500;
+        color: white;
+    }
+    .slideName{
+        margin-right: 40px;
+    }
+    .slideInfo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slideInfo1{
+        color: #0099CC;
+    }
+    .slideInfo2{
+        color: #EA4335;
+    }
 }
 
-.slideTestimoney{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    width: 60%;
-    margin: 0px 20px 0px 20px;
-    text-align: center;
-    color: white;
-}
 
-.slideInfos{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-}
-
-.slideName{
-    margin-right: 40px;
-}
-
-.slideInfo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.slideInfo1{
-    color: #0099CC;
-}
-
-.slideInfo2{
-    color: #EA4335;
+@media only screen and (min-width: 1281px) {
+    .wrapperTest{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 55%;
+        transition: ease-out 1000ms;
+    }
+    .sliderTest{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 35vh;
+    }
+    .slidesTest{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 4000vw;
+        height: 35vh;
+    }
+    .slideWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+    .slideContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 92vw;
+        height: 28vh;
+        border-radius: 1.8vw;
+        background-color: rgba(0,0,0,.55);
+    }
+    .testimoneyWrapper{
+        display: flex;
+        align-items: top;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    .leftQuote{
+        font-size: 4.8vw;
+        margin: 0px 0px 0px 18px;
+        color: white;
+    }
+    .rightQuote{
+        font-size: 4.8vw;
+        margin: 0px 18px 0px 0px;
+        color: white; 
+    }
+    .slideTestimoneyWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slideTestimoney{
+        display: flex;
+        width: 90%;
+        margin: 10px 0px 6px 0px;
+        font-size: 1.5vw;
+        font-family: 'PT Sans', sans-serif;
+        text-align: center;
+        color: white;
+    }
+    .slideInfos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.4vw;
+        font-family: 'PT Sans';
+        font-weight: 500;
+        color: white;
+    }
+    .slideName{
+        margin-right: 40px;
+    }
+    .slideInfo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slideInfo1{
+        color: #0099CC;
+    }
+    .slideInfo2{
+        color: #EA4335;
+    }
 }
