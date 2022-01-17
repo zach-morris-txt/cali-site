@@ -225,6 +225,9 @@
         border-radius: 50%;
     }
     .menuItemOverflow{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: absolute;
         z-index: 3;
         width: 6rem;
@@ -393,6 +396,9 @@
         border-radius: 50%;
     }
     .menuItemOverflow{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: absolute;
         z-index: 3;
         width: 6rem;
@@ -564,6 +570,9 @@
         border-radius: 50%;
     }
     .menuItemOverflow{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: absolute;
         z-index: 3;
         width: 6rem;
@@ -735,6 +744,9 @@
         border-radius: 50%;
     }
     .menuItemOverflow{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: absolute;
         z-index: 3;
         width: 6rem;
@@ -910,6 +922,9 @@
         border-radius: 50%;
     }
     .menuItemOverflow{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: absolute;
         z-index: 3;
         width: 6rem;
@@ -1085,6 +1100,9 @@
         border-radius: 50%;
     }
     .menuItemOverflow{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: absolute;
         z-index: 3;
         width: 6rem;
@@ -1260,6 +1278,9 @@
         border-radius: 50%;
     }
     .menuItemOverflow{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: absolute;
         z-index: 3;
         width: 6rem;
