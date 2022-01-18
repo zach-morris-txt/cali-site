@@ -166,28 +166,38 @@
         margin-bottom: 1vh;
     }    
     .callColumn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 45vw;
         border: 3px brown solid;
         border-radius: 10px;
     }
     .contactTitle{
-        width: 99%;
-        margin: 0px 0px 0px 6px;
+        margin: 0px;
         font-size: 2.6rem;
         font-family: 'PT Serif', serif;
         color: brown;
     }
     .contactInfo{
-        width: 98%;
-        margin: 0px 0px 10px 2px;
+        margin: 0px 0px 10px 0px;
         font-size: 3.2vw;
     }
     .emailColumn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 45vw;
         border: 3px brown solid;
         border-radius: 10px;
     }
     .hoursColumn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
         border: 3px brown solid;
         border-radius: 10px;
         margin-bottom: 1vh;
@@ -197,16 +207,18 @@
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
-        width: 100%;
         margin: 0px;
     }
     .day{
         display: flex;
-        width: 30%;
-        margin: 4px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 32%;
+        margin: 4px 2px 4px 2px;
     }
     .hours{
-        width: 95%;
         margin: 0px;
         font-size: 3.2vw; 
     }
@@ -222,6 +234,7 @@
     .addressColumn{
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: center;
         width: 64vw;
         margin: 0px 0px 20px 0px;
@@ -229,7 +242,7 @@
         border-radius: 10px;
     }
     .findTitle{
-        margin: 0px 0px 0px 6px;
+        margin: 0px;
         font-size: 2.6rem;
         font-family: 'PT Serif', serif;
         border-radius: 10px;
@@ -280,28 +293,38 @@
         margin-bottom: 1vh;
     }    
     .callColumn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 45vw;
         border: 3px brown solid;
         border-radius: 10px;
     }
     .contactTitle{
-        width: 99%;
-        margin: 0px 0px 0px 6px;
+        margin: 0px;
         font-size: 2.6rem;
         font-family: 'PT Serif', serif;
         color: brown;
     }
     .contactInfo{
-        width: 98%;
-        margin: 0px 0px 10px 2px;
+        margin: 0px 0px 10px 0px;
         font-size: 3.2vw;
     }
     .emailColumn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 45vw;
         border: 3px brown solid;
         border-radius: 10px;
     }
     .hoursColumn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
         border: 3px brown solid;
         border-radius: 10px;
         margin-bottom: 1vh;
@@ -311,16 +334,18 @@
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
-        width: 100%;
         margin: 0px;
     }
     .day{
         display: flex;
-        width: 30%;
-        margin: 4px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 32%;
+        margin: 4px 2px 4px 2px;
     }
     .hours{
-        width: 95%;
         margin: 0px;
         font-size: 3.2vw; 
     }
@@ -336,6 +361,7 @@
     .addressColumn{
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: center;
         width: 64vw;
         margin: 0px 0px 20px 0px;
@@ -343,7 +369,7 @@
         border-radius: 10px;
     }
     .findTitle{
-        margin: 0px 0px 0px 6px;
+        margin: 0px;
         font-size: 2.6rem;
         font-family: 'PT Serif', serif;
         border-radius: 10px;
@@ -394,28 +420,38 @@
         margin-bottom: 2.5vh;
     }
     .callColumn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 45vw;
         border: 3px brown solid;
         border-radius: 10px;
     }
     .contactTitle{
-        width: 99%;
-        margin: 0px 0px 0px 6px;
+        margin: 0px;
         font-size: 2.6rem;
         font-family: 'PT Serif', serif;
         color: brown;
     }
     .contactInfo{
-        width: 98%;
-        margin: 0px 0px 10px 8px;
+        margin: 0px 0px 10px 0px;
         font-size: 2vw;
     }
     .emailColumn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 45vw;
         border: 3px brown solid;
         border-radius: 10px;
     }
     .hoursColumn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
         border: 3px brown solid;
         border-radius: 10px;
         margin-bottom: 1vh;
@@ -426,13 +462,16 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
-        width: 100%;
         margin: 0px;
     }
     .day{
         display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
         width: 25%;
-        margin: 4px;
+        margin: 4px 2px 4px 2px;
     }
     .hours{
         margin: 0px;
@@ -450,6 +489,7 @@
     .addressColumn{
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: center;
         width: 64vw;
         margin: 2.5vh 0px 2.5vh 0px;
@@ -457,7 +497,7 @@
         border-radius: 10px;
     }
     .findTitle{
-        margin: 0px 0px 0px 6px;
+        margin: 0px;
         font-size: 2.6rem;
         font-family: 'PT Serif', serif;
         border-radius: 10px;
@@ -508,28 +548,38 @@
         margin-bottom: 3vh;
     }
     .callColumn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 45vw;
         border: 3px brown solid;
         border-radius: 10px;
     }
     .contactTitle{
-        width: 99%;
-        margin: 0px 0px 0px 6px;
+        margin: 0px;
         font-size: 2.6rem;
         font-family: 'PT Serif', serif;
         color: brown;
     }
     .contactInfo{
-        width: 98%;
-        margin: 0px 0px 10px 8px;
+        margin: 0px 0px 10px 0px;
         font-size: 2vw;
     }
     .emailColumn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 45vw;
         border: 3px brown solid;
         border-radius: 10px;
     }
     .hoursColumn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
         border: 3px brown solid;
         border-radius: 10px;
         margin-bottom: 1vh;
@@ -540,13 +590,16 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
-        width: 100%;
         margin: 0px;
     }
     .day{
         display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
         width: 25%;
-        margin: 4px;
+        margin: 4px 2px 4px 2px;
     }
     .hours{
         margin: 0px;
@@ -564,6 +617,7 @@
     .addressColumn{
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: center;
         width: 64vw;
         margin: 3vh 0px 20px 0px;
@@ -571,7 +625,7 @@
         border-radius: 10px;
     }
     .findTitle{
-        margin: 0px 0px 0px 6px;
+        margin: 0px;
         font-size: 2.6rem;
         font-family: 'PT Serif', serif;
         border-radius: 10px;
@@ -622,28 +676,38 @@
         margin-bottom: 3vh;
     }
     .callColumn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 45vw;
         border: 0.35vw brown solid;
         border-radius: 0.5vw;
     }
     .contactTitle{
-        width: 99%;
-        margin: 0px 0px 0px 6px;
+        margin: 0px;
         font-size: 2.6rem;
         font-family: 'PT Serif', serif;
         color: brown;
     }
     .contactInfo{
-        width: 98%;
-        margin: 0px 0px 10px 8px;
+        margin: 0px 0px 10px 0px;
         font-size: 2vw;
     }
     .emailColumn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 45vw;
         border: 0.35vw brown solid;
         border-radius: 0.5vw;
     }
     .hoursColumn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
         border: 0.35vw brown solid;
         border-radius: 0.5vw;
         margin-bottom: 1vh;
@@ -654,13 +718,16 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
-        width: 100%;
         margin: 0px;
     }
     .day{
         display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
         width: 25%;
-        margin: 4px;
+        margin: 4px 2px 4px 2px;
     }
     .hours{
         margin: 0px;
@@ -678,6 +745,7 @@
     .addressColumn{
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: center;
         width: 64vw;
         margin: 3vh 0px 20px 0px;
@@ -685,7 +753,7 @@
         border-radius: 0.5vw;
     }
     .findTitle{
-        margin: 0px 0px 0px 6px;
+        margin: 0px;
         font-size: 2.6rem;
         font-family: 'PT Serif', serif;
         border-radius: 0.5vw;
@@ -736,28 +804,38 @@
         margin-bottom: 3vh;
     }
     .callColumn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 45vw;
         border: 0.35vw brown solid;
         border-radius: 0.5vw;
     }
     .contactTitle{
-        width: 99%;
-        margin: 0px 0px 0px 6px;
+        margin: 0px;
         font-size: 2.6rem;
         font-family: 'PT Serif', serif;
         color: brown;
     }
     .contactInfo{
-        width: 98%;
-        margin: 0px 0px 10px 8px;
+        margin: 0px 0px 10px 0px;
         font-size: 2vw;
     }
     .emailColumn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 45vw;
         border: 0.35vw brown solid;
         border-radius: 0.5vw;
     }
     .hoursColumn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
         border: 0.35vw brown solid;
         border-radius: 0.5vw;
         margin-bottom: 1vh;
@@ -768,13 +846,16 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
-        width: 100%;
         margin: 0px;
     }
     .day{
         display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
         width: 25%;
-        margin: 4px;
+        margin: 4px 2px 4px 2px;
     }
     .hours{
         margin: 0px;
@@ -792,6 +873,7 @@
     .addressColumn{
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: center;
         width: 64vw;
         margin: 3vh 0px 20px 0px;
@@ -799,7 +881,7 @@
         border-radius: 0.5vw;
     }
     .findTitle{
-        margin: 0px 0px 0px 6px;
+        margin: 0px;
         font-size: 2.6rem;
         font-family: 'PT Serif', serif;
         border-radius: 0.5vw;
