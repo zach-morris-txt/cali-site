@@ -34,7 +34,7 @@ import pastryGuavaTriangle from './Images/Pastry_GuavaTriangle.png'
 import pastryGuavaCheeseRing from './Images/Pastry_GuavaCheeseRing.png'
 import pastryMuffin from './Images/Pastry_Muffin.png'
 import pastryCarrotCake from './Images/Pastry_CarrotCake.png'
-import pastryThousandPages from './Images/Pastry_ThousandPages.png'
+//Thousand Pages
 import pastrySliceOfEverything from './Images/Pastry_SliceOfEverything.png'
 import pastryCinnamonBun from './Images/Pastry_CinnamonBun.png'
 import pastryDonut from './Images/Pastry_Donut.png'
@@ -48,6 +48,8 @@ import pastryPandebono from './Images/Pastry_Pandebono.png'
 import pastryBuñuelos from './Images/Pastry_Buñuelos.png'
 import pastryBreadCreamCheese from './Images/Pastry_BreadCreamCheese.png'
 import pastryBreadCheese from './Images/Pastry_BreadCheese.png'
+import pastryBreadChocolate from './Images/Pastry_BreadChocolate.png'
+
 
 
 import cake1 from './Images/Cake1.png'
@@ -296,15 +298,15 @@ export const pastryItems = [
     {
         id: 8,
         img: flag,
-        img2: pastryAppleTurnover,
-        name: "Apple Turnover",
+        img2: pastryFruitTart,
+        name: "Fruit Tarts",
         description: "",
     },
     {
         id: 9,
         img: flag,
-        img2: pastryFruitTart,
-        name: "Fruit Tarts",
+        img2: pastryAppleTurnover,
+        name: "Apple Turnover",
         description: "",
     },
     {
@@ -345,7 +347,7 @@ export const pastryItems = [
     {
         id: 15,
         img: flag,
-        img2: pastryThousandPages,
+        img2: "",
         name: "Thousand Pages Bread",
         description: "",
     },
@@ -438,6 +440,13 @@ export const pastryItems = [
         img: flag,
         img2: pastryBreadCheese,
         name: "Cheese Bread Loaf",
+        description: "",
+    },
+    {
+        id: 28,
+        img: flag,
+        img2: pastryBreadChocolate,
+        name: "Chocolate Bread Loaf",
         description: "",
     },
 ]

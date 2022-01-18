@@ -33,8 +33,6 @@ const Menu = () => {
                                 <div className="itemTexts" key={item.id}>
                                     <h4 key={item.id}>{item.name}</h4>
                                     <p className="itemTextsParagraphs" key={item.id}>{item.description}</p>
-                                    <p className="itemTextsParagraphs" key={item.id}>{item.description2}</p>
-                                    <p className="itemTextsParagraphs" key={item.id}>{item.description3}</p>
                                 </div>
                             </div>
                         ))}
@@ -75,8 +73,6 @@ const Menu = () => {
                                 <div className="itemTexts" key={item.id}>
                                     <h4 key={item.id}>{item.name}</h4>
                                     <p className="itemTextsParagraphs" key={item.id}>{item.description}</p>
-                                    <p className="itemTextsParagraphs" key={item.id}>{item.description2}</p>
-                                    <p className="itemTextsParagraphs" key={item.id}>{item.description3}</p>
                                 </div>
                             </div>
 
@@ -102,7 +98,6 @@ const Menu = () => {
                                 <div className="itemTexts" key={item.id}>
                                     <h4 key={item.id}>{item.name}</h4>
                                     <p className="itemTextsParagraphs" key={item.id}>{item.description}</p>
-                                    <p className="itemTextsParagraphs" key={item.id}>{item.description2}</p>
                                 </div>
                             </div>
                         ))}
@@ -129,7 +124,6 @@ const Menu = () => {
                                 <div className="itemTexts" key={item.id}>
                                     <h4 key={item.id}>{item.name}</h4>
                                     <p className="itemTextsParagraphs" key={item.id}>{item.description}</p>
-                                    <p className="itemTextsParagraphs" key={item.id}>{item.description2}</p>
                                 </div>
                             </div>
                         ))}
