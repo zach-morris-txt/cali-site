@@ -238,7 +238,7 @@ export const foodItems = [
         img: flag,
         img2: mealMeatPotatoBall,
         name: "Meat Potato Balls",
-        description: "",
+        description: "• chicken/ beef",
     },
 ]
 

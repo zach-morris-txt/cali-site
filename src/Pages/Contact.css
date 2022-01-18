@@ -38,27 +38,38 @@
         margin-bottom: 1vh;
     }    
     .callColumn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 45vw;
         border: 3px brown solid;
         border-radius: 10px;
     }
     .contactTitle{
-        width: 99%;
         margin: 0px;
         font-size: 1.9rem;
         font-family: 'PT Serif', serif;
+        color: brown;
     }
     .contactInfo{
-        width: 98%;
-        margin: 0px 0px 10px 2px;
+        margin: 0px 0px 10px 0px;
         font-size: 3.6vw;
     }
     .emailColumn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 45vw;
         border: 3px brown solid;
         border-radius: 10px;
     }
     .hoursColumn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
         border: 3px brown solid;
         border-radius: 10px;
         margin-bottom: 1vh;
@@ -67,17 +78,20 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
+        align-items: center;
         justify-content: center;
-        width: 100%;
         margin: 0px;
     }
     .day{
         display: flex;
-        width: 30%;
-        margin: 4px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 32%;
+        margin: 4px 2px 4px 2px;
     }
     .hours{
-        width: 95%;
         margin: 0px;
         font-size: 3.4vw; 
     }
@@ -93,6 +107,7 @@
     .addressColumn{
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: center;
         width: 64vw;
         margin: 0px 0px 20px 0px;
@@ -104,10 +119,12 @@
         font-size: 1.9rem;
         font-family: 'PT Serif', serif;
         border-radius: 10px;
+        color: brown;
     }
     .googleMap{
-        width: 80vw;
-        margin-bottom: 3vh;
+        width: 90vw;
+        height: 25vh;
+        margin-bottom: 6vh;
     }
 }
 

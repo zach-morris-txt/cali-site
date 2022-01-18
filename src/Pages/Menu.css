@@ -12,7 +12,7 @@
         align-items: center;
         justify-content: space-around;
         width: 100%;
-        height: 55px;
+        height: 10vh;
         margin: 20px 0px 10px 0px;
         background: brown;
     }
@@ -21,6 +21,7 @@
         font-family: 'Lora', italic;
         font-weight: 400;
         text-decoration: chocolate underline;
+        -webkit-text-decoration: chocolate underline;
         color: white;
     }
     .drinkColumn{
@@ -1171,7 +1172,7 @@
         flex-direction: column;
         align-items: center;
         width: 14%;
-        height: 22vh;
+        height: 23vh;
         margin: 1vh 1vw 15px 1vw;
         border: 2px chocolate solid;
         border-radius: 8px;
@@ -1197,7 +1198,7 @@
         flex-direction: column;
         align-items: center;
         width: 13%;
-        height: 20vh;
+        height: 22vh;
         margin: 1vh 1vw 15px 1vw;
         border: 2px chocolate solid;
         border-radius: 8px;
@@ -1258,7 +1259,7 @@
         flex-direction: column;
         align-items: center;
         width: 26%;
-        height: 15vh;
+        height: 14vh;
         margin: 0px 5px 15px 5px;
         border: 2px chocolate solid;
         border-radius: 8px;
@@ -1327,7 +1328,7 @@
         flex-direction: column;
         align-items: center;
         width: 26%;
-        height: 20vh;
+        height: 18vh;
         margin: 0px 5px 15px 5px;
         border: 2px chocolate solid;
         border-radius: 8px;
