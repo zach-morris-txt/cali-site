@@ -102,7 +102,7 @@ const Menu = () => {
                                 <div className="itemTexts" key={item.id}>
                                     <h4 key={item.id}>{item.name}</h4>
                                     <p className="itemTextsParagraphs" key={item.id}>{item.description}</p>
-                                    <h5 key={item.id} className="" >{item.description2}</h5>
+                                    <p className="itemTextsParagraphs" key={item.id}>{item.description2}</p>
                                 </div>
                             </div>
                         ))}
@@ -129,7 +129,7 @@ const Menu = () => {
                                 <div className="itemTexts" key={item.id}>
                                     <h4 key={item.id}>{item.name}</h4>
                                     <p className="itemTextsParagraphs" key={item.id}>{item.description}</p>
-                                    <h5 key={item.id} className="" >{item.description2}</h5>
+                                    <p className="itemTextsParagraphs" key={item.id}>{item.description2}</p>
                                 </div>
                             </div>
                         ))}
