@@ -285,7 +285,7 @@ export var scrollTestimonials = [
         id: 19,
         name: "Travis V.",
         site: "Google",
-        text: "When you think of 'Cuban sandwich' you think of Tampa. I am born and raised in Tampa and have had pretty much all Cuban food around. Cali Cafe has my vote. Light and full of flavor with homemade bread baked daily...",
+        text: "When you think of  'Cuban sandwich'  you think of Tampa. I am born and raised in Tampa and have had pretty much all Cuban food around. Cali Cafe has my vote. Light and full of flavor with homemade bread baked daily...",
     },
     {
         id: 20,

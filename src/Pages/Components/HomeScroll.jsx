@@ -23,11 +23,13 @@ const HomeScroll = () => {
         return array;
     }
 
+    const [list, setList] = useState([])
     const [id, setId] = useState(0)
     const delay = 10000;
 
     useEffect(() => {
-        shuffleArray(scrollTestimonials)
+        const mountArray = shuffleArray([...scrollTestimonials])
+        setList(mountArray)
         setTimeout(() =>
             setId((prevIndex) =>
                 prevIndex === scrollImages.length - 1 ? 0 : prevIndex + 1
@@ -45,34 +47,34 @@ const HomeScroll = () => {
                 >
                     {scrollImages?.map((item) => (
                         <div className="widthWide" key={item.id}>
-                            <img className="slide" src={item.img} key={item.id} alt="Slide" />
+                            <img className="slide" src={item.img} alt="Slide" />
                         </div>
                     ))}
                     <div className="wrapperTest">
                         <div className="sliderTest">
                             <div className="slidesTest">
-                                {scrollTestimonials?.map((item) => (
-                                    <div className="slideWrapper" key={item.id} >
-                                        <div className="slideContent" key={item.id} >
-                                            <div className="testimoneyWrapper" key={item.id} >
-                                                <FontAwesomeIcon icon={faQuoteLeft} className="leftQuote" key={item.id} />
+                                {list?.map((x) => (
+                                    <div className="slideWrapper" key={x.id + x.name} >
+                                        <div className="slideContent" >
+                                            <div className="testimoneyWrapper" >
+                                                <FontAwesomeIcon icon={faQuoteLeft} className="leftQuote" />
                                                 <div className="slideTestimoneyWrapper">
-                                                    <p className="slideTestimoney" key={item.id}>{item.text}</p>
+                                                    <p className="slideTestimoney">{x.text}</p>
                                                 </div>
-                                                <FontAwesomeIcon icon={faQuoteRight} className="rightQuote" key={item.id} />
+                                                <FontAwesomeIcon icon={faQuoteRight} className="rightQuote" />
                                             </div>
-                                            <div className="slideInfos" key={item.id} >
-                                                <p className="slideName" key={item.id}>{item.name}</p>
-                                                <div className="slideInfo" key={item.id}>
-                                                    {item.site === "Yelp" ? 
+                                            <div className="slideInfos" >
+                                                <p className="slideName">{x.name}</p>
+                                                <div className="slideInfo">
+                                                    {x.site === "Yelp" ? 
                                                         <>
-                                                            <FontAwesomeIcon icon={faYelp} size="2x" color="#0099CC" key={item.id} />
-                                                            <p className="slideInfo1" key={item.id}>Yelp</p>
+                                                            <FontAwesomeIcon icon={faYelp} size="2x" color="#0099CC" />
+                                                            <p className="slideInfo1">Yelp</p>
                                                         </>
                                                     :
                                                         <>
-                                                            <FontAwesomeIcon icon={faGoogle} size="1x" color="#EA4335" key={item.id} />
-                                                            <p className="slideInfo2" key={item.id}>oogle</p>
+                                                            <FontAwesomeIcon icon={faGoogle} size="1x" color="#EA4335" />
+                                                            <p className="slideInfo2">oogle</p>
                                                         </>
                                                     }
                                                 </div>
