@@ -123,8 +123,8 @@
     }
     .googleMap{
         width: 90vw;
-        height: 25vh;
-        margin-bottom: 6vh;
+        height: 28vh;
+        margin: 0.9vh 0px 6vh 0px;
     }
 }
 

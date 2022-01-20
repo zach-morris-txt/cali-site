@@ -6,7 +6,7 @@
         display:flex;
         justify-content: center;
         width: 100%;
-        height: 13.5vh;
+        height: 14vh;
         background: brown;
     }
     .itemWrapper{
@@ -14,8 +14,8 @@
         align-items: center;
         justify-content: space-between;
         width: 96%;
-        height: 11vh;
-        margin-top: 4px;
+        height: 11.5vh;
+        margin-top: 1vh;
         z-index: 3;
         background: brown;
         border: 2px white solid;
@@ -26,7 +26,7 @@
         align-items: center;
         justify-content: center;
         width: 14%;
-        height: 50%;
+        height: 48%;
         margin: 0px 2px 0px 2px;
         background: white;
         text-align: center;
@@ -35,19 +35,20 @@
     }
     .item{
         width: 99%;
-        font-size: 3.2vw;
+        font-size: 3vw;
         font-family: 'Oswald', sans-serif;
         font-weight: 600;
         text-align: center;
+        text-decoration: 0.12vw brown underline;
+        -webkit-text-decoration: 2px brown underline;
         color: brown;
-        border: none;
     }
     .logoWrap{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 18%;
-        height: 90%;
+        width: 19%;
+        height: 88.5%;
         background: white;
         border-radius: 18px;
     }
@@ -62,8 +63,8 @@
         border-radius: 50%;
     }
     #caliLogo{
-        width:120%;
-        height: 120%;
+        width: 114%;
+        height:  114%;
     }
 }
 

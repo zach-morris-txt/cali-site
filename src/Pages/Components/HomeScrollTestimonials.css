@@ -7,21 +7,21 @@
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 55%;
-        transition: ease-out 1000ms;
+        top: 53%;
+        transition: ease-in 1000ms;
     }
     .sliderTest{
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 35vh;
+        height: 39vh;
     }
     .slidesTest{
         display: flex;
         align-items: center;
         justify-content: center;
         width: 4000vw;
-        height: 35vh;
+        height: 39vh;
     }
     .slideWrapper{
         display: flex;
@@ -34,8 +34,8 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        width: 90vw;
-        height: 30vh;
+        width: 92vw;
+        min-height: 27vh;
         border-radius: 18px;
         background-color: rgba(0,0,0,.5);
     }
@@ -47,12 +47,12 @@
     }
     .leftQuote{
         font-size: 10vw;
-        margin: 0px 0px 0px 4px;
+        margin: 12px 0px 0px 8px;
         color: white;
     }
     .rightQuote{
         font-size: 10vw;
-        margin: 0px 4px 0px 0px;
+        margin: 12px 8px 0px 0px;
         color: white; 
     }
     .slideTestimoneyWrapper{
@@ -63,8 +63,8 @@
     .slideTestimoney{
         display: flex;
         width: 90%;
-        margin: 10px 0px 6px 0px;
-        font-size: 3.7vw;
+        margin: 20px 0px 6px 0px;
+        font-size: 4vw;
         font-family: 'PT Sans', sans-serif;
         text-align: center;
         color: white;
@@ -73,7 +73,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 4vw;
+        font-size: 3.8vw;
         font-family: 'PT Sans';
         font-weight: 500;
         color: white;
@@ -129,7 +129,7 @@
         justify-content: center;
         flex-direction: column;
         width: 92vw;
-        height: 30vh;
+        min-height: 29vh;
         border-radius: 18px;
         background-color: rgba(0,0,0,.5);
     }
@@ -223,7 +223,7 @@
         justify-content: center;
         flex-direction: column;
         width: 92vw;
-        height: 35vh;
+        min-height: 34vh;
         border-radius: 18px;
         background-color: rgba(0,0,0,.5);
     }
@@ -317,7 +317,7 @@
         justify-content: center;
         flex-direction: column;
         width: 92vw;
-        height: 28vh;
+        min-height: 26vh;
         border-radius: 22px;
         background-color: rgba(0,0,0,.55);
     }
@@ -411,7 +411,7 @@
         justify-content: center;
         flex-direction: column;
         width: 92vw;
-        height: 32vh;
+        min-height: 30vh;
         border-radius: 22px;
         background-color: rgba(0,0,0,.55);
     }
@@ -505,7 +505,7 @@
         justify-content: center;
         flex-direction: column;
         width: 92vw;
-        height: 28vh;
+        min-height: 26vh;
         border-radius: 1.8vw;
         background-color: rgba(0,0,0,.55);
     }
