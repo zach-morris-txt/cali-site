@@ -112,8 +112,8 @@
     }
     .pastryColumn{
         display: flex;
-        justify-content: space-around;
         flex-wrap: wrap;
+        justify-content: space-around;
         width: 100vw;
         margin: 0px 0px 0px 0px;
     }
@@ -1064,7 +1064,6 @@
         z-index: 2;
         width: 6rem;
         height: 6rem;
-        margin: 0px 10px 10px 10px;
         border-radius: 50%;
     }
     .menuItemOverflow{
@@ -1075,7 +1074,6 @@
         z-index: 3;
         width: 6rem;
         height: 6rem;
-        margin: 0px 30px 10px 30px;
         border-radius: 50%;
         overflow: hidden;
     }
