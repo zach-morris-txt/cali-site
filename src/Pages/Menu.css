@@ -42,8 +42,11 @@
     }
     .menuItem{
         display: flex;
+        display: -webkit-flex;
         align-items: center;
+        -webkit-align-items: center;
         justify-content: center;
+        -webkit-justify-content: center;
     }
     .menuItemFlag{
         position: relative;
@@ -207,8 +210,11 @@
     }
     .menuItem{
         display: flex;
+        display: -webkit-flex;
         align-items: center;
+        -webkit-align-items: center;
         justify-content: center;
+        -webkit-justify-content: center;
     }
     .menuItemFlag{
         position: relative;
@@ -374,8 +380,11 @@
     }
     .menuItem{
         display: flex;
+        display: -webkit-flex;
         align-items: center;
+        -webkit-align-items: center;
         justify-content: center;
+        -webkit-justify-content: center;
     }
     .menuItemFlag{
         position: relative;
@@ -544,8 +553,11 @@
     }
     .menuItem{
         display: flex;
+        display: -webkit-flex;
         align-items: center;
+        -webkit-align-items: center;
         justify-content: center;
+        -webkit-justify-content: center;
     }
     .menuItemFlag{
         position: relative;
@@ -714,8 +726,11 @@
     }
     .menuItem{
         display: flex;
+        display: -webkit-flex;
         align-items: center;
+        -webkit-align-items: center;
         justify-content: center;
+        -webkit-justify-content: center;
     }
     .menuItemFlag{
         position: relative;
@@ -886,8 +901,11 @@
     }
     .menuItem{
         display: flex;
+        display: -webkit-flex;
         align-items: center;
+        -webkit-align-items: center;
         justify-content: center;
+        -webkit-justify-content: center;
     }
     .menuItemFlag{
         position: relative;
@@ -1056,8 +1074,11 @@
     }
     .menuItem{
         display: flex;
+        display: -webkit-flex;
         align-items: center;
+        -webkit-align-items: center;
         justify-content: center;
+        -webkit-justify-content: center;
     }
     .menuItemFlag{
         position: relative;
@@ -1228,8 +1249,11 @@
     }
     .menuItem{
         display: flex;
+        display: -webkit-flex;
         align-items: center;
+        -webkit-align-items: center;
         justify-content: center;
+        -webkit-justify-content: center;
     }
     .menuItemFlag{
         position: relative;
