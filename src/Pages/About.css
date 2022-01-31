@@ -9,8 +9,8 @@
     }
     .aboutLine{
         width: 90vw;
-        height: 7px;
-        margin: 10px 0px 20px 0px;
+        height: 6px;
+        margin: 16px 0px 20px 0px;
         border-radius: 5px;
         background: brown;
     }
@@ -63,7 +63,7 @@
 }
 
 
-@media only screen and (min-width: 415px) and (max-width: 769px) and (orientation: portrait) {
+@media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: portrait) {
     .aboutTopLine{
         display: flex;
         align-items: center;
@@ -125,7 +125,7 @@
 }
 
 
-@media only screen and (min-width: 415px) and (max-width: 769px) and (orientation: landscape) {
+@media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: landscape) {
     .aboutTopLine{
         display: flex;
         align-items: center;
@@ -187,7 +187,7 @@
 }
 
 
-@media only screen and (min-width: 769px) and (max-width: 1280px) and (orientation: portrait) {
+@media only screen and (min-width: 770px) and (max-width: 1280px) and (orientation: portrait) {
     .aboutTopLine{
         display: flex;
         align-items: center;
@@ -249,7 +249,7 @@
 }
 
 
-@media only screen and (min-width: 769px) and (max-width: 1280px) and (orientation: landscape) {
+@media only screen and (min-width: 770px) and (max-width: 1280px) and (orientation: landscape) {
     .aboutTopLine{
         display: flex;
         align-items: center;

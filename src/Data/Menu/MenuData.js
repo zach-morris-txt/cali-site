@@ -52,7 +52,6 @@ import pastryBreadChocolate from './Images/Pastry_BreadChocolate.png'
 
 
 
-import cake1 from './Images/Cake1.png'
 import cake2 from './Images/Cake2.png'
 import cake3 from './Images/Cake3.png'
 import cake4 from './Images/Cake4.png'
@@ -60,8 +59,10 @@ import cake5 from './Images/Cake5.png'
 import cake6 from './Images/Cake6.png'
 import cake7 from './Images/Cake7.png'
 import cake8 from './Images/Cake8.png'
+import cake9 from './Images/Cake9.png'
 import cakeChesecake1 from './Images/Cake_Cheesecake1.png'
 import cakeCheesecake2 from './Images/Cake_Cheesecake2.png'
+import cakeCheesecake3 from './Images/Cake_Cheesecake3.png'
 
 
 
@@ -455,64 +456,57 @@ export const cakeItems = [
     {
         id: 1,
         img: flag,
-        img2: cake1,
-        name: "Cake",
+        img2: cake6,
+        name: "Chocolate Creme",
         description: "",
     },
     {
         id: 2,
         img: flag,
-        img2: cake2,
-        name: "Cake",
+        img2: cake7,
+        name: "Milk Chocolate",
         description: "",
     },
     {
         id: 3,
         img: flag,
-        img2: cake3,
-        name: "Cake",
-        description: "",
-    },
-    {
-        id: 4,
-        img: flag,
-        img2: cake4,
-        name: "Cake",
+        img2: cake8,
+        name: "Dark Chocolate",
         description: "",
     },
     {
         id: 5,
         img: flag,
-        img2: cake5,
-        name: "Cake",
+        img2: cake2,
+        name: "Red Velvet",
         description: "",
     },
     {
         id: 6,
         img: flag,
-        img2: cake6,
-        name: "Cake",
+        img2: cake5,
+        name: "Red Velvet w/ Cheese Frosting",
         description: "",
     },
     {
         id: 7,
         img: flag,
-        img2: cake7,
-        name: "Cake",
+        img2: cake3,
+        name: "Cherry Chocolate",
         description: "",
     },
     {
         id: 8,
         img: flag,
-        img2: cake8,
-        name: "Cake",
+        img2: cake4,
+        name: "Strawberry Vanilla",
         description: "",
     },
     {
         id: 9,
         img: flag,
-        img2: cakeChesecake1,
-        name: "Cheesecake",
+        img2: cake9,
+        name: "Strawberry Chocolate Ganache",
         description: "",
     },
     {
@@ -520,6 +514,20 @@ export const cakeItems = [
         img: flag,
         img2: cakeCheesecake2,
         name: "Cheesecake",
+        description: "",
+    },
+    {
+        id: 11,
+        img: flag,
+        img2: cakeChesecake1,
+        name: "Oreo Cheesecake",
+        description: "",
+    },
+    {
+        id: 12,
+        img: flag,
+        img2: cakeCheesecake3,
+        name: "Guava Cheesecake",
         description: "",
     },
 ]

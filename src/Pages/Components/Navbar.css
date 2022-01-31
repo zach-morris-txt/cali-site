@@ -4,30 +4,31 @@
 @media screen and (max-width: 415px) {
     .container{
         display:flex;
+        align-items: center;
         justify-content: center;
         width: 100%;
-        height: 14vh;
+        height: 17vh;
         background: brown;
     }
     .itemWrapper{
         display:flex;
-        align-items: center;
+        align-items: top;
         justify-content: space-between;
-        width: 96%;
-        height: 11.5vh;
-        margin-top: 1vh;
         z-index: 3;
+        width: 96%;
+        height: 14.5vh;
+        margin: 0.6vh;
+        padding: 0px 4px 0px 4px;
         background: brown;
         border: 2px white solid;
-        border-radius: 8px;
     }
     .itemWrap{
         display: flex;
         align-items: center;
         justify-content: center;
         width: 14%;
-        height: 48%;
-        margin: 0px 2px 0px 2px;
+        height: 45%;
+        margin: 2.5vh 0px 0px 0px;
         background: white;
         text-align: center;
         border: 3px #8b2c2c double;
@@ -35,22 +36,23 @@
     }
     .item{
         width: 99%;
-        font-size: 3vw;
+        font-size: 3.1vw;
         font-family: 'Oswald', sans-serif;
         font-weight: 600;
         text-align: center;
-        text-decoration: 0.12vw brown underline;
-        -webkit-text-decoration: 2px brown underline;
+        text-decoration: 0.3vh brown underline;
+        -webkit-text-decoration: 0.3vh brown underline;
         color: brown;
     }
     .logoWrap{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 19%;
-        height: 88.5%;
+        width: 24%;
+        height: 83%;
+        margin-top: 1.4vh;
         background: white;
-        border-radius: 18px;
+        border-radius: 4vw;
     }
     .logo{
         display: flex;
@@ -63,13 +65,13 @@
         border-radius: 50%;
     }
     #caliLogo{
-        width: 114%;
-        height:  114%;
+        width: 112%;
+        height:  112%;
     }
 }
 
 
-@media only screen and (min-width: 415px) and (max-width: 769px) and (orientation: portrait) {
+@media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: portrait) {
     .container{
         display:flex;
         justify-content: center;
@@ -136,7 +138,7 @@
 }
 
 
-@media only screen and (min-width: 415px) and (max-width: 769px) and (orientation: landscape) {
+@media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: landscape) {
     .container{
         display:flex;
         justify-content: center;
@@ -202,7 +204,7 @@
 }
 
 
-@media only screen and (min-width: 769px) and (max-width: 1280px) and (orientation: portrait) {
+@media only screen and (min-width: 770px) and (max-width: 1280px) and (orientation: portrait) {
     .container{
         display:flex;
         justify-content: center;
@@ -266,7 +268,7 @@
 }
 
 
-@media only screen and (min-width: 769px) and (max-width: 1280px) and (orientation: landscape) {
+@media only screen and (min-width: 770px) and (max-width: 1280px) and (orientation: landscape) {
     .container{
         display:flex;
         justify-content: center;

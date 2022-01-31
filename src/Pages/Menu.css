@@ -8,8 +8,8 @@
         justify-content: space-around;
     }
     .menuTitleWrap{
-        display: flex;
-        align-items: center;
+        display: flex; 
+        align-items: flex-end;
         justify-content: space-around;
         width: 100%;
         height: 10vh;
@@ -17,7 +17,8 @@
         background: brown;
     }
     .menuTitle{
-        font-size: 8.5vw;
+        margin-bottom: 0.8vh;
+        font-size: 10vw;
         font-family: 'Lora', italic;
         font-weight: 400;
         text-decoration: chocolate underline;
@@ -27,9 +28,8 @@
     .drinkColumn{
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
         justify-content: space-around;
-        width: 100vw;
+        width: 100%;
     }
     .drinkItem{
         display: flex;
@@ -47,16 +47,16 @@
         -webkit-align-items: center;
         justify-content: center;
         -webkit-justify-content: center;
+        margin-bottom: 0.5vh;
     }
     .menuItemFlag{
         position: relative;
         position: -webkit-relative;
         z-index: 2;
-        width: 3rem;
-        height: 3rem;
+        width: 3.8rem;
+        height: 3.8rem;
         border-radius: 50%;
     }
-    /* Added Centering... For IphoneSE:  */
     .menuItemOverflow{
         display: flex;
         display: -webkit-flex;
@@ -67,42 +67,42 @@
         position: absolute;
         position: -webkit-absolute;
         z-index: 3;
-        width: 3rem;
-        height: 3rem;
+        width: 3.8rem;
+        height: 3.8rem;
         border-radius: 50%;
         overflow: hidden;
     }
     .menuItemIMG{
-        width: 3.2rem;
-        height: 3.2rem;
+        width: 4rem;
+        height: 4rem;
         object-fit: cover;
     }
     .itemTexts{
         width: 90%;
-        margin-left: 8px;
+        margin-left: 3px;
     }
     h4{
         margin: 0px 0px 0px 0px;
-        font-size: 3.4vw;
+        font-size: 3.6vw;
         font-family: 'Lora', cursive;
         font-weight: 800;
     }
     .itemTextsParagraphs{
         margin: 0px 0px 10px 0px;
-        font-size: 2.3vw;
+        font-size: 2.5vw;
     }
     .beanColumn{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .foodColumn{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .foodItem{
@@ -123,7 +123,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .pastryItem{
@@ -148,7 +148,7 @@
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .cakeItem{
@@ -175,7 +175,7 @@
 }
 
 
-@media only screen and (min-width: 415px) and (max-width: 769px) and (orientation: portrait) {
+@media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: portrait) {
     .topSection{
         display: flex;
         flex-direction: column;
@@ -203,7 +203,7 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-around;
-        width: 100vw;
+        width: 100%;
     }
     .drinkItem{
         display: flex;
@@ -268,14 +268,14 @@
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .foodColumn{
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .foodItem{
@@ -296,7 +296,7 @@
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .pastryItem{
@@ -321,7 +321,7 @@
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .cakeItem{
@@ -348,7 +348,7 @@
 }
 
 
-@media only screen and (min-width: 415px) and (max-width: 769px) and (orientation: landscape) {
+@media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: landscape) {
     .topSection{
         display: flex;
         flex-direction: column;
@@ -376,7 +376,7 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-around;
-        width: 100vw;
+        width: 100%;
     }
     .drinkItem{
         display: flex;
@@ -441,14 +441,14 @@
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .foodColumn{
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .foodItem{
@@ -469,7 +469,7 @@
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .pastryItem{
@@ -494,7 +494,7 @@
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .cakeItem{
@@ -521,7 +521,7 @@
 }
 
 
-@media only screen and (min-width: 769px) and (max-width: 1280px) and (orientation: portrait) {
+@media only screen and (min-width: 770px) and (max-width: 1280px) and (orientation: portrait) {
     .topSection{
         display: flex;
         flex-direction: row;
@@ -617,7 +617,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .foodColumn{
@@ -645,7 +645,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .pastryItem{
@@ -670,7 +670,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .cakeItem{
@@ -697,7 +697,7 @@
 }
 
 
-@media only screen and (min-width: 769px) and (max-width: 1280px) and (orientation: landscape) {
+@media only screen and (min-width: 770px) and (max-width: 1280px) and (orientation: landscape) {
     .topSection{
         display: flex;
         flex-direction: row;
@@ -793,7 +793,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .foodColumn{
@@ -821,7 +821,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .pastryItem{
@@ -846,7 +846,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .cakeItem{
@@ -973,7 +973,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .foodColumn{
@@ -1001,7 +1001,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .pastryItem{
@@ -1026,7 +1026,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .cakeItem{
@@ -1149,7 +1149,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .foodColumn{
@@ -1177,7 +1177,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .pastryItem{
@@ -1202,7 +1202,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .cakeItem{
@@ -1329,7 +1329,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .foodColumn{
@@ -1357,7 +1357,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .pastryItem{
@@ -1382,7 +1382,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: 100vw;
+        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     .cakeItem{

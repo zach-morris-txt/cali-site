@@ -18,7 +18,7 @@ const Menu = () => {
                 <div className="topSection">
                     <div className="drinkColumn">
                         <div className="menuTitleWrap">
-                            <h2 className="menuTitle">Beverage</h2>
+                            <div className="menuTitle">Beverage</div>
                         </div>
                         {drinkItems?.map((item) => (
                             <div className="drinkItem" key={item.id} >
@@ -58,7 +58,7 @@ const Menu = () => {
 
                     <div className="foodColumn">
                         <div className="menuTitleWrap">
-                            <h2 className="menuTitle">Cuisine</h2>
+                            <div className="menuTitle">Cuisine</div>
                         </div>
                         {foodItems?.map((item) => (
                             <div className="foodItem" key={item.id} >
@@ -82,7 +82,7 @@ const Menu = () => {
 
                 <div className="middleSection">
                     <div className="menuTitleWrap">
-                        <h2 className="menuTitle">Bread/Pastry</h2>
+                        <div className="menuTitle">Bread/Pastry</div>
                     </div>
                     <div className="pastryColumn">
                         {pastryItems?.map((item) => (
@@ -104,10 +104,10 @@ const Menu = () => {
                     </div>
                 </div>
                 <div className="menuTitleWrap">
-                    <h2 className="menuTitle">Cake</h2>
+                    <div className="menuTitle">Cake</div>
                 </div>
                 <div className="cakeSubtitle">            
-                    <p>*Cakes available for order upon request</p>
+                    <p>*Cake Orders Available Upon Request</p>
                 </div>
                 <div className="bottomSection">
                     <div className="cakeColumn">
