@@ -16,7 +16,7 @@ const Navbar = () => {
                 </div>
                 <div className="itemWrap">
                     <a href="https://www.doordash.com/store/cali-cafe-riverview-1776241/" target="_blank" rel="noreferrer" style={{ 
-                            textDecoration: "none", color: 'white' }}>
+                            textDecoration: "none", color: 'white', width: "100%", height: "100%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center"  }}>
                         <div className="item">Order<br/>Online</div>
                     </a>
                 </div>

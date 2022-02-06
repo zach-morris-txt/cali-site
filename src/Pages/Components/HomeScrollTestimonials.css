@@ -7,21 +7,21 @@
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 53%;
+        top: 38%;
         transition: ease-in 1000ms;
     }
     .sliderTest{
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 39vh;
+        height: 55vh;
     }
     .slidesTest{
         display: flex;
         align-items: center;
         justify-content: center;
         width: 4000vw;
-        height: 39vh;
+        height: 55vh;
     }
     .slideWrapper{
         display: flex;
@@ -34,10 +34,10 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        width: 92vw;
-        min-height: 27vh;
-        border-radius: 18px;
-        background-color: rgba(0,0,0,.5);
+        width: 94vw;
+        min-height: 32vh;
+        border-radius: 3vw;
+        background-color: rgba(0,0,0,.67);
     }
     .testimoneyWrapper{
         display: flex;
@@ -47,12 +47,12 @@
     }
     .leftQuote{
         font-size: 10vw;
-        margin: 12px 0px 0px 8px;
+        margin: 12px 0px 0px 4px;
         color: white;
     }
     .rightQuote{
         font-size: 10vw;
-        margin: 12px 8px 0px 0px;
+        margin: 12px 4px 0px 0px;
         color: white; 
     }
     .slideTestimoneyWrapper{
@@ -64,7 +64,101 @@
         display: flex;
         width: 90%;
         margin: 20px 0px 6px 0px;
-        font-size: 4vw;
+        font-size: 4.4vw;
+        font-family: 'PT Sans', sans-serif;
+        text-align: center;
+        color: white;
+    }
+    .slideInfos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 4.8vw;
+        font-family: 'PT Sans';
+        font-weight: 500;
+        color: white;
+    }
+    .slideName{
+        margin-right: 40px;
+    }
+    .slideInfo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slideInfo1{
+        color: #0099CC;
+    }
+    .slideInfo2{
+        color: #EA4335;
+    }
+}
+
+
+@media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: portrait) {
+    .wrapperTest{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        transition: ease-out 1000ms;
+    }
+    .sliderTest{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 35vh;
+    }
+    .slidesTest{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 4000vw;
+        height: 35vh;
+    }
+    .slideWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+    .slideContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 90vw;
+        min-height: 28vh;
+        border-radius: 18px;
+        background-color: rgba(0,0,0,.58);
+    }
+    .testimoneyWrapper{
+        display: flex;
+        align-items: top;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    .leftQuote{
+        font-size: 9vw;
+        margin: 0px 0px 0px 14px;
+        color: white;
+    }
+    .rightQuote{
+        font-size: 9vw;
+        margin: 0px 14px 0px 0px;
+        color: white; 
+    }
+    .slideTestimoneyWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slideTestimoney{
+        display: flex;
+        width: 90%;
+        margin: 10px 0px 6px 0px;
+        font-size: 3.6vw;
         font-family: 'PT Sans', sans-serif;
         text-align: center;
         color: white;
@@ -95,121 +189,27 @@
 }
 
 
-@media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: portrait) {
-    .wrapperTest{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        top: 55%;
-        transition: ease-out 1000ms;
-    }
-    .sliderTest{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 35vh;
-    }
-    .slidesTest{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 4000vw;
-        height: 35vh;
-    }
-    .slideWrapper{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100vw;
-    }
-    .slideContent{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        width: 92vw;
-        min-height: 29vh;
-        border-radius: 18px;
-        background-color: rgba(0,0,0,.5);
-    }
-    .testimoneyWrapper{
-        display: flex;
-        align-items: top;
-        justify-content: space-between;
-        overflow: hidden;
-    }
-    .leftQuote{
-        font-size: 10vw;
-        margin: 0px 0px 0px 8px;
-        color: white;
-    }
-    .rightQuote{
-        font-size: 10vw;
-        margin: 0px 8px 0px 0px;
-        color: white; 
-    }
-    .slideTestimoneyWrapper{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .slideTestimoney{
-        display: flex;
-        width: 90%;
-        margin: 10px 0px 6px 0px;
-        font-size: 3.1vw;
-        font-family: 'PT Sans', sans-serif;
-        text-align: center;
-        color: white;
-    }
-    .slideInfos{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 3.6vw;
-        font-family: 'PT Sans';
-        font-weight: 500;
-        color: white;
-    }
-    .slideName{
-        margin-right: 40px;
-    }
-    .slideInfo{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .slideInfo1{
-        color: #0099CC;
-    }
-    .slideInfo2{
-        color: #EA4335;
-    }
-}
-
-
 @media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: landscape) {
     .wrapperTest{
         display: flex;
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 46%;
+        top: 36%;
         transition: ease-out 1000ms;
     }
     .sliderTest{
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 35vh;
+        height: 42vh;
     }
     .slidesTest{
         display: flex;
         align-items: center;
         justify-content: center;
         width: 4000vw;
-        height: 35vh;
+        height: 42vh;
     }
     .slideWrapper{
         display: flex;
@@ -222,10 +222,10 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        width: 92vw;
-        min-height: 34vh;
+        width: 94vw;
+        min-height: 41vh;
         border-radius: 18px;
-        background-color: rgba(0,0,0,.5);
+        background-color: rgba(0,0,0,.7);
     }
     .testimoneyWrapper{
         display: flex;
@@ -234,12 +234,12 @@
         overflow: hidden;
     }
     .leftQuote{
-        font-size: 8.5vw;
+        font-size: 6vw;
         margin: 0px 0px 0px 8px;
         color: white;
     }
     .rightQuote{
-        font-size: 8.5vw;
+        font-size: 6vw;
         margin: 0px 8px 0px 0px;
         color: white; 
     }
@@ -252,7 +252,7 @@
         display: flex;
         width: 90%;
         margin: 10px 0px 6px 0px;
-        font-size: 2.2vw;
+        font-size: 2.5vw;
         font-family: 'PT Sans', sans-serif;
         text-align: center;
         color: white;
@@ -261,7 +261,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 3.2vw;
+        font-size: 2.7vw;
         font-family: 'PT Sans';
         font-weight: 500;
         color: white;
@@ -296,14 +296,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 35vh;
+        height: 38vh;
     }
     .slidesTest{
         display: flex;
         align-items: center;
         justify-content: center;
         width: 4000vw;
-        height: 35vh;
+        height: 38vh;
     }
     .slideWrapper{
         display: flex;
@@ -316,10 +316,10 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        width: 92vw;
-        min-height: 26vh;
+        width: 94vw;
+        min-height: 28vh;
         border-radius: 22px;
-        background-color: rgba(0,0,0,.55);
+        background-color: rgba(0,0,0,.65);
     }
     .testimoneyWrapper{
         display: flex;
@@ -346,7 +346,7 @@
         display: flex;
         width: 90%;
         margin: 10px 0px 6px 0px;
-        font-size: 3.2vw;
+        font-size: 3.8vw;
         font-family: 'PT Sans', sans-serif;
         text-align: center;
         color: white;
@@ -355,7 +355,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 2.8vw;
+        font-size: 4vw;
         font-family: 'PT Sans';
         font-weight: 500;
         color: white;
@@ -383,7 +383,7 @@
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 55%;
+        top: 56%;
         transition: ease-out 1000ms;
     }
     .sliderTest{
@@ -411,9 +411,9 @@
         justify-content: center;
         flex-direction: column;
         width: 92vw;
-        min-height: 30vh;
-        border-radius: 22px;
-        background-color: rgba(0,0,0,.55);
+        min-height: 32vh;
+        border-radius: 1.2vw;
+        background-color: rgba(0,0,0,.68);
     }
     .testimoneyWrapper{
         display: flex;
@@ -422,13 +422,13 @@
         overflow: hidden;
     }
     .leftQuote{
-        font-size: 7.5vw;
-        margin: 0px 0px 0px 8px;
+        font-size: 6vw;
+        margin: 0px 0px 0px 30px;
         color: white;
     }
     .rightQuote{
-        font-size: 7.5vw;
-        margin: 0px 8px 0px 0px;
+        font-size: 6vw;
+        margin: 0px 30px 0px 0px;
         color: white; 
     }
     .slideTestimoneyWrapper{
@@ -438,8 +438,8 @@
     }
     .slideTestimoney{
         display: flex;
-        width: 90%;
-        margin: 10px 0px 6px 0px;
+        width: 84%;
+        margin: 20px 0px 6px 0px;
         font-size: 2.2vw;
         font-family: 'PT Sans', sans-serif;
         text-align: center;
@@ -477,7 +477,7 @@
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 55%;
+        top: 52%;
         transition: ease-out 1000ms;
     }
     .sliderTest{
@@ -504,10 +504,10 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        width: 92vw;
-        min-height: 26vh;
-        border-radius: 1.8vw;
-        background-color: rgba(0,0,0,.55);
+        width: 72vw;
+        min-height: 31vh;
+        border-radius: 1.1vw;
+        background-color: rgba(0,0,0,.78);
     }
     .testimoneyWrapper{
         display: flex;
@@ -516,13 +516,13 @@
         overflow: hidden;
     }
     .leftQuote{
-        font-size: 4.8vw;
-        margin: 0px 0px 0px 18px;
+        font-size: 3.6vw;
+        margin: 4px 0px 0px 30px;
         color: white;
     }
     .rightQuote{
-        font-size: 4.8vw;
-        margin: 0px 18px 0px 0px;
+        font-size: 3.6vw;
+        margin: 4px 30px 0px 0px;
         color: white; 
     }
     .slideTestimoneyWrapper{
@@ -532,8 +532,8 @@
     }
     .slideTestimoney{
         display: flex;
-        width: 90%;
-        margin: 10px 0px 6px 0px;
+        width: 80%;
+        margin: 25px 0px 6px 0px;
         font-size: 1.5vw;
         font-family: 'PT Sans', sans-serif;
         text-align: center;
@@ -545,7 +545,7 @@
         justify-content: center;
         font-size: 1.4vw;
         font-family: 'PT Sans';
-        font-weight: 500;
+        font-weight: 600;
         color: white;
     }
     .slideName{

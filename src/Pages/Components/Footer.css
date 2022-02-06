@@ -105,7 +105,7 @@
         color: white;
     }
     .footSubject{
-        font-size: 2vw;
+        font-size: 2.2vw;
         font-family: 'Yantramanav', cursive;
         text-align: center;
         color: white;
@@ -133,18 +133,15 @@
         justify-content: center;
     }
     .faIcon{
-        width: 6vw;
-        height: 6vw;
+        font-size: 3vw;
         color: #3b5999;
     }
     .inIcon{
-        width: 6vw;
-        height: 6vw;
+        font-size: 3vw;
         color: #e4405f;
     }
     .yeIcon{
-        width: 6vw;
-        height: 6vw;
+        font-size: 3vw;
         color: #0099cc;
     }
 }
@@ -156,7 +153,7 @@
         justify-content: space-around;
         bottom: 0;
         width: 100%;
-        height: 18vh;
+        height: 24vh;
         background: brown;
     }
     .footerItem{
@@ -165,11 +162,11 @@
         align-items: center;
         justify-content: center;
         width: 31%;
-        margin-bottom: 2px;
-        border: 2px lightgrey solid;
+        margin-bottom: 4px;
+        border: 1px lightgrey solid;
     }
     .footTitle{
-        font-size: 3vw;
+        font-size: 2.7vw;
         font-family: 'Oswald', sans-serif;
         font-weight: 500;
         text-align: center;
@@ -178,7 +175,7 @@
         color: white;
     }
     .footSubject{
-        font-size: 2vw;
+        font-size: 1.6vw;
         font-family: 'Yantramanav', cursive;
         text-align: center;
         color: white;
@@ -195,8 +192,9 @@
         display: flex; 
         align-items: center;
         justify-content: center;
-        width: 5.6vw;
-        height: 5.6vw;
+        width: 4.2vw;
+        height: 4.2vw;
+        text-align: center;
         border-radius: 50%;
         background: white;
     }
@@ -204,6 +202,18 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .faIcon{
+        font-size: 2.7vw;
+        color: #3b5999;
+    }
+    .inIcon{
+        font-size: 2.7vw;
+        color: #e4405f;
+    }
+    .yeIcon{
+        font-size: 2.7vw;
+        color: #0099cc;
     }
 }
 
@@ -229,7 +239,7 @@
     .footTitle{
         width: 90%;
         margin-bottom: 0.5vh;
-        font-size: 3.2vw;
+        font-size: 4vw;
         font-family: 'Oswald', sans-serif;
         font-weight: 500;
         text-align: center;
@@ -238,7 +248,7 @@
         color: white;
     }
     .footSubject{
-        font-size: 2vw;
+        font-size: 2.2vw;
         font-family: 'Yantramanav', cursive;
         text-align: center;
         color: white;
@@ -255,8 +265,8 @@
         display: flex; 
         align-items: center;
         justify-content: center;
-        width: 4.5vw;
-        height: 4.5vw;
+        width: 6vw;
+        height: 6vw;
         border-radius: 50%;
         background: white;
     }
@@ -266,21 +276,15 @@
         justify-content: center;
     }
     .faIcon{
-        size: 2x;
-        height: "4vw";
-        font-size: 2.5vw;
+        font-size: 3.4vw;
         color: #3b5999;
     }
     .inIcon{
-        width: "4vw";
-        height: "4vw";
-        font-size: 2.5vw;
+        font-size: 3.4vw;
         color: #e4405f;
     }
     .yeIcon{
-        width: "4vw";
-        height: "4vw";
-        font-size: 2.5vw;
+        font-size: 3.4vw;
         color: #0099cc;
     }
 }
@@ -300,13 +304,13 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 31%;
-        margin-bottom: 2px;
+        width: 30.5%;
+        margin-bottom: 6px;
         border: 2px lightgrey solid;
     }
     .footTitle{
         margin-bottom: 1vh;
-        font-size: 3vw;
+        font-size: 2.8vw;
         font-family: 'Oswald', sans-serif;
         font-weight: 500;
         text-align: center;
@@ -315,7 +319,7 @@
         color: white;
     }
     .footSubject{
-        font-size: 2vw;
+        font-size: 1.8vw;
         font-family: 'Yantramanav', cursive;
         text-align: center;
         color: white;
@@ -332,8 +336,8 @@
         display: flex; 
         align-items: center;
         justify-content: center;
-        width: 4.5vw;
-        height: 4.5vw;
+        width: 4vw;
+        height: 4vw;
         border-radius: 50%;
         background: white;
     }
@@ -343,20 +347,14 @@
         justify-content: center;
     }
     .faIcon{
-        width: "4vw";
-        height: "4vw";
         font-size: 2.4vw;
         color: #3b5999;
     }
     .inIcon{
-        width: "4vw";
-        height: "4vw";
         font-size: 2.4vw;
         color: #e4405f;
     }
     .yeIcon{
-        width: "4vw";
-        height: "4vw";
         font-size: 2.4vw;
         color: #0099cc;
     }
@@ -369,7 +367,7 @@
         justify-content: space-around;
         bottom: 0;
         width: 100%;
-        height: 20vh;
+        height: 22vh;
         background: brown;
     }
     .footerItem{
@@ -377,13 +375,13 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 31%;
-        margin-bottom: 10px;
-        border: 2px lightgrey solid;
+        width: 28%;
+        margin-bottom: 14px;
+        border: 3px white solid;
     }
     .footTitle{
         margin-bottom: 1vh;
-        font-size: 2vw;
+        font-size: 2.5vw;
         font-family: 'Oswald', sans-serif;
         font-weight: 500;
         text-align: center;
@@ -392,7 +390,7 @@
         color: white;
     }
     .footSubject{
-        font-size: 1.6vw;
+        font-size: 1.4vw;
         font-family: 'Yantramanav', cursive;
         text-align: center;
         color: white;
@@ -401,15 +399,16 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        width: 100%;
+        width: 80%;
         height: 30%;
+        margin-top: 15px;
     }
     .socialIcon{
         display: flex; 
         align-items: center;
         justify-content: center;
-        width: 2.8vw;
-        height: 2.8vw;
+        width: 3.4vw;
+        height: 3.4vw;
         border-radius: 50%;
         background: white;
     }
@@ -419,20 +418,14 @@
         justify-content: center;
     }
     .faIcon{
-        width: 3vw;
-        height: 3vw;
         font-size: 1.6vw;
         color: #3b5999;
     }
     .inIcon{
-        width: 3vw;
-        height: 3vw;
         font-size: 1.6vw;
         color: #e4405f;
     }
     .yeIcon{
-        width: 3vw;
-        height: 3vw;
         font-size: 1.6vw;
         color: #0099cc;
     }

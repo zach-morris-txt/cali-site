@@ -133,7 +133,7 @@
     }
     .aboutLine{
         width: 90vw;
-        height: 10px;
+        height: 7px;
         margin: 16px 0px 22px 0px;
         border-radius: 5px;
         background: brown;
@@ -153,19 +153,19 @@
         text-align: center;
     }
     #aboutIntro{
-        margin: 0;
+        margin: 8px 0px 0px 0px;
         font-size: 4.8vw;
         font-family: 'Lora', italic;
-        font-weight: 500;
+        font-weight: 600;
     }
     .aboutParagraphs{
         width: 99%;
         margin: 15px 0px 0px 0px;
-        font-size: 3vw;
+        font-size: 2.6vw;
         text-align: center;   
     }
     #italicize{
-        font-size: 3.4vw;
+        font-size: 2.8vw;
         font-style: italic;
         font-weight: 500;
     }
@@ -173,12 +173,12 @@
         display: flex;
         justify-content: space-around;
         width: 100vw;
-        height: 45vh;
+        height: 67vh;
         margin: 20px;
     }
     .aboutImg{
         width: 36%;
-        height: 40vh;
+        height: 62vh;
         margin: 10px 0px 20px 0px;
         border: 2px chocolate solid;
         border-radius: 35px;
@@ -195,9 +195,9 @@
     }
     .aboutLine{
         width: 90vw;
-        height: 10px;
-        margin: 4vh 0px 22px 0px;
-        border-radius: 5px;
+        height: 12px;
+        margin: 3vh 0px 22px 0px;
+        border-radius: 8px;
         background: brown;
     }
     .contentWrap{
@@ -210,24 +210,24 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 93%;
+        width: 94%;
         height: 80%;
         text-align: center;
     }
     #aboutIntro{
-        margin: 2vh 0px 0px 0px;
-        font-size: 4.6vw;
+        margin: 2vh 0px 5px 0px;
+        font-size: 4.8vw;
         font-family: 'Lora', italic;
-        font-weight: 500;
+        font-weight: 600;
     }
     .aboutParagraphs{
         width: 99%;
         margin: 15px 0px 0px 0px;
-        font-size: 2.4vw;
+        font-size: 3.4vw;
         text-align: center;   
     }
     #italicize{
-        font-size: 1.6vw;
+        font-size: 3.6vw;
         font-style: italic;
         font-weight: 500;
     }
@@ -235,8 +235,8 @@
         display: flex;
         justify-content: space-around;
         width: 100vw;
-        height: 38vh;
-        margin: 2vh 0px 0px 0px;
+        height: 42vh;
+        margin: 4vh 0px 0px 0px;
     }
     .aboutImg{
         width: 45%;
@@ -258,7 +258,7 @@
     .aboutLine{
         width: 90vw;
         height: 10px;
-        margin: 15vh 0px 22px 0px;
+        margin: 10vh 0px 6vh 0px;
         border-radius: 5px;
         background: brown;
     }
@@ -272,24 +272,25 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 93%;
+        width: 92%;
         height: 80%;
         text-align: center;
     }
     #aboutIntro{
-        margin: 2vh 0px 0px 0px;
-        font-size: 3.5vw;
+        width: 80%;
+        margin: 2vh 0px 2vh 0px;
+        font-size: 3.6vw;
         font-family: 'Lora', italic;
-        font-weight: 500;
+        font-weight: 600;
     }
     .aboutParagraphs{
         width: 99%;
         margin: 15px 0px 0px 0px;
-        font-size: 1.6vw;
+        font-size: 2.2vw;
         text-align: center;   
     }
     #italicize{
-        font-size: 1.6vw;
+        font-size: 2.3vw;
         font-style: italic;
         font-weight: 500;
     }
@@ -297,12 +298,12 @@
         display: flex;
         justify-content: space-around;
         width: 100vw;
-        height: 62vh;
+        height: 70vh;
         margin: 4vh 0px 0px 0px;
     }
     .aboutImg{
         width: 42%;
-        height: 58vh;
+        height: 60vh;
         margin: 10px 0px 20px 0px;
         border: 4px chocolate solid;
         border-radius: 35px;
@@ -362,11 +363,11 @@
         display: flex;
         justify-content: space-around;
         width: 100%;
-        height: 66vh;
+        height: 70vh;
         margin: 4vh 0px 0px 0px;
     }
     .aboutImg{
-        width: 42%;
+        width: 40%;
         height: 60vh;
         margin: 10px 0px 20px 0px;
         border: 4px chocolate solid;
@@ -388,7 +389,7 @@
     .aboutLine{
         width: 90vw;
         height: 1.5vh;
-        margin: 12vh 0px 5vh 0px;
+        margin: 11vh 0px 5vh 0px;
         border-radius: 5px;
         background: brown;
     }
@@ -402,24 +403,25 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 70%;
+        width: 78%;
         height: 80%;
         text-align: center;
     }
     #aboutIntro{
-        margin: 2vh 0px 0px 0px;
-        font-size: 3.5vw;
+        width: 85%;
+        margin: 1vh 0px 3vh 0px;
+        font-size: 3.6vw;
         font-family: 'Lora', italic;
         font-weight: 500;
     }
     .aboutParagraphs{
         width: 99%;
         margin: 15px 0px 0px 0px;
-        font-size: 1.6vw;
+        font-size: 1.8vw;
         text-align: center;   
     }
     #italicize{
-        font-size: 1.6vw;
+        font-size: 1.9vw;
         font-style: italic;
         font-weight: 500;
     }
@@ -427,8 +429,8 @@
         display: flex;
         justify-content: space-around;
         width: 100%;
-        height: 68vh;
-        margin: 4vh 0px 0px 0px;
+        height: 73vh;
+        margin: 5vh 0px 0px 0px;
     }
     .aboutImg{
         width: 40%;
@@ -490,14 +492,14 @@
     }
     .sectionImages{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         width: 100%;
-        height: 68vh;
-        margin: 6vh 0px 0px 0px;
+        height: 72vh;
+        margin: 4vh 0px 3vh 0px;
     }
     .aboutImg{
-        width: 44%;
-        height: 62vh;
+        width: 38%;
+        height: 65vh;
         margin: 10px 0px 20px 0px;
         border: 4px chocolate solid;
         border-radius: 35px;

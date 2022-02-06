@@ -369,7 +369,7 @@ export var scrollTestimonials = [
         id: 33,
         name: "Ellie C.",
         site: "Google",
-        text: "This is my favorite cafe in the area, the prices are cheap and the coffee and pastries are devine. My first time there they made me feel so welcome, they introduced me to all the different pastries they have :) ...",
+        text: "This is my favorite cafe in the area, the prices are cheap and the coffee and pastries are devine. My first time there they made me feel so welcome, they introduced me to all the different pastries they have :)",
     },
     {
         id: 34,

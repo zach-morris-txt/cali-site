@@ -191,7 +191,7 @@
         background: brown;
     }
     .menuTitle{
-        font-size: 8vw;
+        font-size: 8.6vw;
         font-family: 'Lora', italic;
         font-weight: 400;
         text-decoration: chocolate underline;
@@ -262,7 +262,7 @@
     }
     .itemTextsParagraphs{
         margin: 0px 0px 10px 0px;
-        font-size: 2.3vw;
+        font-size: 2.4vw;
     }
     .beanColumn{
         display: flex;
@@ -359,8 +359,8 @@
         align-items: center;
         justify-content: space-around;
         width: 100%;
-        height: 13vh;
-        margin: 4vh 0px 2vh 0px;
+        height: 18vh;
+        margin: 6vh 0px 5vh 0px;
         background: brown;
     }
     .menuTitle{
@@ -399,8 +399,8 @@
         position: relative;
         position: -webkit-relative;
         z-index: 2;
-        width: 6rem;
-        height: 6rem;
+        width: 4.4rem;
+        height: 4.4rem;
         border-radius: 50%;
     }
     .menuItemOverflow{
@@ -413,14 +413,14 @@
         position: absolute;
         position: -webkit-absolute;
         z-index: 3;
-        width: 6rem;
-        height: 6rem;
+        width: 4.4rem;
+        height: 4.4rem;
         border-radius: 50%;
         overflow: hidden;
     }
     .menuItemIMG{
-        width: 6.2rem;
-        height: 6.2rem;
+        width: 4.6rem;
+        height: 4.6rem;
         object-fit: cover;
     }
     .itemTexts{
@@ -429,7 +429,7 @@
     }
     h4{
         margin: 0px 0px 0px 0px;
-        font-size: 3.3vw;
+        font-size: 2.8vw;
         font-family: 'Lora', cursive;
         font-weight: 800;
     }
@@ -487,7 +487,7 @@
     }
     .cakeSubtitle{
         margin: 0px 0px 0px 5vw;
-        font-size: 4.4vw;
+        font-size: 3.2vw;
         font-family: 'Yantramanav';
     }
     .cakeColumn{
@@ -527,7 +527,6 @@
         flex-direction: row;
         align-items: baseline;
         justify-content: center;
-        margin-top: 1vh;
     }
     .menuTitleWrap{
         display: flex;
@@ -535,11 +534,11 @@
         justify-content: space-around;
         width: 100%;
         height: 10vh;
-        margin: 5vh 0px 4vh 0px;
+        margin: 4vh 0px 3vh 0px;
         background: brown;
     }
     .menuTitle{
-        font-size: 5vw;
+        font-size: 7vw;
         font-family: 'Lora', italic;
         font-weight: 400;
         text-decoration: chocolate underline;
@@ -551,7 +550,7 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-around;
-        width: 46vw;
+        width: 47vw;
         margin: 0px 1vw 0px 0px;
     }
     .drinkItem{
@@ -624,7 +623,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: 46vw;
+        width: 47vw;
         margin: 0px 0px 0px 1vw;
     }
     .foodItem{
@@ -663,7 +662,7 @@
     }
     .cakeSubtitle{
         margin: 0px 0px 0px 5vw;
-        font-size: 2.9vw;
+        font-size: 3.2vw;
         font-family: 'Yantramanav';
     }
     .cakeColumn{
@@ -690,7 +689,7 @@
     .baseLine{
         width: 90vw;
         height: 10px;
-        margin: 20px 0px 16px 0px;
+        margin: 35px 0px 20px 0px;
         border-radius: 5px;
         background: brown;
     }
@@ -710,8 +709,8 @@
         align-items: center;
         justify-content: space-around;
         width: 100%;
-        height: 13vh;
-        margin: 5vh 0px 4vh 0px;
+        height: 13.5vh;
+        margin: 6vh 0px 4vh 0px;
         background: brown;
     }
     .menuTitle{
@@ -839,7 +838,7 @@
     }
     .cakeSubtitle{
         margin: 0px 0px 0px 5vw;
-        font-size: 2.9vw;
+        font-size: 2.6vw;
         font-family: 'Yantramanav';
     }
     .cakeColumn{
@@ -866,7 +865,7 @@
     .baseLine{
         width: 90vw;
         height: 10px;
-        margin: 20px 0px 16px 0px;
+        margin: 35px 0px 20px 0px;
         border-radius: 5px;
         background: brown;
     }
@@ -967,7 +966,7 @@
     }
     .itemTextsParagraphs{
         margin: 0px 0px 10px 0px;
-        font-size: 1vw;
+        font-size: 1.2vw;
     }
     .beanColumn{
         display: flex;
@@ -1019,7 +1018,7 @@
     }
     .cakeSubtitle{
         margin: 0px 0px 0px 5vw;
-        font-size: 1.6vw;
+        font-size: 2.1vw;
         font-family: 'Yantramanav';
     }
     .cakeColumn{
@@ -1066,12 +1065,12 @@
         align-items: center;
         justify-content: space-around;
         width: 100%;
-        height: 13vh;
-        margin: 5vh 0px 4vh 0px;
+        height: 15vh;
+        margin: 5.5vh 0px 4vh 0px;
         background: brown;
     }
     .menuTitle{
-        font-size: 3.4vw;
+        font-size: 3.6vw;
         font-family: 'Lora', italic;
         font-weight: 400;
         text-decoration: chocolate underline;
@@ -1081,7 +1080,6 @@
     .drinkColumn{
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
         justify-content: space-around;
         width: 46vw;
         margin: 0px 1vw 0px 0px;
@@ -1137,13 +1135,13 @@
     }
     h4{
         margin: 0px 0px 0px 0px;
-        font-size: 1.4vw;
+        font-size: 1.8vw;
         font-family: 'Lora', cursive;
         font-weight: 800;
     }
     .itemTextsParagraphs{
         margin: 0px 0px 10px 0px;
-        font-size: 0.9vw;
+        font-size: 1.1vw;
     }
     .beanColumn{
         display: flex;
@@ -1195,7 +1193,7 @@
     }
     .cakeSubtitle{
         margin: 0px 0px 0px 5vw;
-        font-size: 1.6vw;
+        font-size: 2.2vw;
         font-family: 'Yantramanav';
     }
     .cakeColumn{

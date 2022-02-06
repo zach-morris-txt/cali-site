@@ -7,7 +7,7 @@
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 17vh;
+        height: 15.5vh;
         background: brown;
     }
     .itemWrapper{
@@ -15,12 +15,12 @@
         align-items: top;
         justify-content: space-between;
         z-index: 3;
-        width: 96%;
-        height: 14.5vh;
-        margin: 0.6vh;
+        width: 98%;
+        height: 13vh;
+        margin: 0vh 0.3vh 0vh 0.3vh;
         padding: 0px 4px 0px 4px;
         background: brown;
-        border: 2px white solid;
+        border: 1px lightgrey solid;
     }
     .itemWrap{
         display: flex;
@@ -28,7 +28,7 @@
         justify-content: center;
         width: 14%;
         height: 45%;
-        margin: 2.5vh 0px 0px 0px;
+        margin: 1.4vh 0px 0px 0px;
         background: white;
         text-align: center;
         border: 3px #8b2c2c double;
@@ -49,10 +49,10 @@
         align-items: center;
         justify-content: center;
         width: 24%;
-        height: 83%;
-        margin-top: 1.4vh;
+        height: 90%;
+        margin-top: 0.7vh;
         background: white;
-        border-radius: 4vw;
+        border-radius: 4.2vw;
     }
     .logo{
         display: flex;
@@ -65,8 +65,8 @@
         border-radius: 50%;
     }
     #caliLogo{
-        width: 112%;
-        height:  112%;
+        width: 108%;
+        height:  108%;
     }
 }
 
@@ -76,48 +76,49 @@
         display:flex;
         justify-content: center;
         width: 100%;
-        height: 15vh;
+        height: 19vh;
         background: brown;
     }
     .itemWrapper{
         display:flex;
-        align-items: center;
+        align-items: top;
         justify-content: space-between;
-        width: 96%;
-        height: 13vh;
-        margin-top: 4px;
         z-index: 3;
+        height: 13.8vh;
+        margin: 1.8vh 0.8vh 0px 0.8vh;
+        padding: 0px 10px 0px 10px;
         background: brown;
-        border: 2px white solid;
-        border-radius: 8px;
+        border: 3px white solid;
     }
     .itemWrap{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 14%;
-        height: 50%;
-        margin: 0px 4px 0px 4px;
+        width: 15.5%;
+        height: 48%;
+        margin: 1.4vh 0px 0px 0px;
         background: white;
         text-align: center;
-        border: 3px #8b2c2c double;
-        border-radius: 6px;    
+        border: 4px #8b2c2c double;
+        border-radius: 1.4vw;    
     }
     .item{
         width: 99%;
-        font-size: 3.2vw;
+        font-size: 3.1vw;
         font-family: 'Oswald', sans-serif;
-        font-weight: 600;
+        font-weight: 800;
         text-align: center;
+        text-decoration: 0.3vh brown underline;
+        -webkit-text-decoration: 0.3vh brown underline;
         color: brown;
-        border: none;
     }
     .logoWrap{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 17vw;
-        height: 16vw;
+        width: 22%;
+        height: 87%;
+        margin-top: 0.8vh;
         background: white;
         border-radius: 18px;
     }
@@ -132,8 +133,8 @@
         border-radius: 50%;
     }
     #caliLogo{
-        width:110%;
-        height: 110%;
+        width: 92%;
+        height: 92%;
     }
 }
 
@@ -143,49 +144,51 @@
         display:flex;
         justify-content: center;
         width: 100%;
-        height: 18vh;
+        height: 23vh;
         background: brown;
     }
     .itemWrapper{
         display:flex;
-        align-items: center;
+        align-items: top;
         justify-content: space-between;
-        width: 96%;
-        height: 15vh;
+        width: 98%;
+        height: 19vh;
         margin-top: 4px;
         z-index: 3;
         background: brown;
-        border: 2px white solid;
-        border-radius: 8px;
+        border: 1px white solid;
     }
     .itemWrap{
         display: flex;
         align-items: center;
         justify-content: center;
         width: 14%;
-        height: 50%;
-        margin: 0px 4px 0px 4px;
+        height: 55%;
+        margin: 0.8vw 4px 0px 4px;
         background: white;
         text-align: center;
-        border: 3px #8b2c2c double;
+        border: 4px #8b2c2c double;
         border-radius: 6px;    
     }
     .item{
         width: 99%;
-        font-size: 2.3vw;
+        font-size: 1.7vw;
         font-family: 'Oswald', sans-serif;
-        font-weight: 600;
+        font-weight: 800;
         text-align: center;
+        text-decoration: 0.3vh brown underline;
+        -webkit-text-decoration: 0.3vh brown underline;
         color: brown;
     }
     .logoWrap{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 12vw;
-        height: 10vw;
+        width: 17vw;
+        height: 90%;
+        margin-top: 1vh;
         background: white;
-        border-radius: 18px;
+        border-radius: 2vw;
     }
     .logo{
         display: flex;
@@ -198,8 +201,8 @@
         border-radius: 50%;
     }
     #caliLogo{
-        width:100%;
-        height: 100%;
+        width: 55%;
+        height: 55%;
     }
 }
 
@@ -209,35 +212,37 @@
         display:flex;
         justify-content: center;
         width: 100%;
-        height: 14vh;
+        height: 16vh;
         background: brown;
     }
     .itemWrapper{
         display:flex;
+        align-items: top;
         justify-content: space-between;
-        width: 90vw;
-        height: 16vh;
+        width: 96vw;
+        height: 15.8vh;
         z-index: 3;
         background: brown;
-        border: 4px white double;
-        border-radius: 10px;
+        border: 6px white double;
+        border-radius: 1vw;
     }
     .itemWrap{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 13%;
-        height: 58%;
-        margin: 2% 6px 0px 6px;
+        width: 16%;
+        height: 44%;
+        margin: 3.8% 8px 0px 8px;
         text-align: center;
         background: white;
-        border-radius: 8px;    
+        border: 4px #8b2c2c double;
+        border-radius: 1.5vw;    
     }
     .item{
         width: 99%;
-        font-size: 3.2vw;
+        font-size: 3.4vw;
         font-family: 'Oswald', sans-serif;
-        font-weight: 600;
+        font-weight: 800;
         text-align: center;
         text-decoration: 2px brown underline;
         -webkit-text-decoration: 2px brown underline;
@@ -247,9 +252,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 22vw;
-        height: 22vw;
-        border-radius: 50%;
+        width: 21vw;
+        height: 86%;
+        border-radius: 3vw;
     }
     .logo{
         display: flex;
@@ -258,12 +263,13 @@
         z-index: 1;
         width: 98%;
         height:  98%;
+        margin-top: 2.5vh;
         background: white;
-        border-radius: 50%;
+        border-radius: 3.8vw;
     }
     #caliLogo{
-        width: 108%;
-        height:  108%;
+        width: 102%;
+        height: 102%;
     }
 }
 
@@ -280,28 +286,29 @@
         display:flex;
         justify-content: space-between;
         width: 80vw;
-        height: 17vh;
+        height: 17.5vh;
         z-index: 3;
         background: brown;
         border: 4px white double;
-        border-radius: 10px;
+        border-radius: 1vw;
     }
     .itemWrap{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 13%;
-        height: 58%;
-        margin: 2% 6px 0px 6px;
+        width: 15%;
+        height: 50%;
+        margin: 2% 10px 0px 10px;
         text-align: center;
         background: white;
-        border-radius: 8px;    
+        border: 4px #8b2c2c double;
+        border-radius: 6px;    
     }
     .item{
         width: 99%;
-        font-size: 1.8vw;
+        font-size: 1.9vw;
         font-family: 'Oswald', sans-serif;
-        font-weight: 600;
+        font-weight: 700;
         text-align: center;
         text-decoration: 2px brown underline;
         -webkit-text-decoration: 2px brown underline;
@@ -311,8 +318,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 19vw;
-        height: 19vw;
+        width: 20vw;
+        height: 20vw;
         border-radius: 50%;
     }
     .logo{
@@ -337,28 +344,29 @@
         display:flex;
         justify-content: center;
         width: 100%;
-        height: 12vh;
+        height: 14.5vh;
         background: brown;
     }
     .itemWrapper{
         display:flex;
         justify-content: space-between;
         width: 90vw;
-        height: 16vh;
+        height: 19vh;
         z-index: 3;
         background: brown;
         border: 6px white double;
-        border-radius: 1vw;
+        border-radius: 0.9vw;
     }
     .itemWrap{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 13%;
-        height: 68%;
-        margin: 1vh 1vw 0px 1vw;
+        width: 14%;
+        height: 58%;
+        margin: 1.2vh 2.5vw 0px 2.5vw;
         text-align: center;
         background: white;
+        border: 4px #8b2c2c double;
         border-radius: 0.6vw;    
     }
     .item{
@@ -374,8 +382,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 15vw;
-        height: 15vw;
+        width: 16vw;
+        height: 16vw;
         border-radius: 50%;
     }
     .logo{
