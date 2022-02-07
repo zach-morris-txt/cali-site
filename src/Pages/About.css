@@ -403,13 +403,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 78%;
+        width: 90%;
         height: 80%;
         text-align: center;
     }
     #aboutIntro{
         width: 85%;
-        margin: 1vh 0px 3vh 0px;
+        margin: 5vh 0px 1vh 0px;
         font-size: 3.6vw;
         font-family: 'Lora', italic;
         font-weight: 500;
@@ -417,11 +417,11 @@
     .aboutParagraphs{
         width: 99%;
         margin: 15px 0px 0px 0px;
-        font-size: 1.8vw;
+        font-size: 1.4vw;
         text-align: center;   
     }
     #italicize{
-        font-size: 1.9vw;
+        font-size: 1.4vw;
         font-style: italic;
         font-weight: 500;
     }

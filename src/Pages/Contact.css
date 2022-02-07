@@ -795,7 +795,7 @@
     .contactColumn{
         display: flex;
         flex-direction: column;
-        width: 94vw;
+        width: 90vw;
     }
     .upperWrap{
         display: flex;
@@ -821,7 +821,7 @@
     }
     .contactInfo{
         margin: 0px 0px 10px 0px;
-        font-size: 2vw;
+        font-size: 1.7vw;
     }
     .emailColumn{
         display: flex;
@@ -860,7 +860,7 @@
     }
     .hours{
         margin: 0px;
-        font-size: 2vw; 
+        font-size: 1.7vw; 
     }
     .dayLabel{
         font-weight: 700;

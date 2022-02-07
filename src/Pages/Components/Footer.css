@@ -401,14 +401,14 @@
         justify-content: space-evenly;
         width: 80%;
         height: 30%;
-        margin-top: 15px;
+        margin: 5px 0px 2vh 0px;
     }
     .socialIcon{
         display: flex; 
         align-items: center;
         justify-content: center;
-        width: 3.4vw;
-        height: 3.4vw;
+        width: 2.7vw;
+        height: 2.7vw;
         border-radius: 50%;
         background: white;
     }

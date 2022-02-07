@@ -47,7 +47,7 @@ const HomeScroll = () => {
                 >
                     {scrollImages?.map((item) => (
                         <div className="widthWide" key={item.id}>
-                            <img className="slide" src={item.img} alt="Slide" />
+                            <img className="slide" src={item.img} loading="lay"alt="Slide" />
                         </div>
                     ))}
                     <div className="wrapperTest">
