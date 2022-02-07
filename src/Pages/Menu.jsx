@@ -26,7 +26,7 @@ const Menu = () => {
                                     <img className="menuItemFlag" src={item.img} key={item.id} alt="Background Item" />
                                     { (item.img2) ?
                                     <div className="menuItemOverflow" key={item.id}>
-                                        <img className="menuItemIMG" src={item.img2} key={item.id} alt="Background Item" />
+                                        <img className="menuItemIMG" src={item.img2} loading="lazy" key={item.id} alt="Background Item" />
                                     </div>
                                     : <></>}  
                                 </div>

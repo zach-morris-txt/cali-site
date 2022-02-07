@@ -357,7 +357,7 @@ export var scrollTestimonials = [
         id: 31,
         name: "Sarat R.",
         site: "Google",
-        text: "I'm not a big hot chocolate drinker but they have the most delicious authentic Colombian hot chocolate. The coffee is delicious as well !...",
+        text: "I'm not a big hot chocolate drinker but they have the most delicious authentic Colombian hot chocolate. The coffee is delicious as well!...",
     },
     {
         id: 32,

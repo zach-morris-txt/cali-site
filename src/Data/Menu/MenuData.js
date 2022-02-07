@@ -1,68 +1,68 @@
-import flag from './ColombianFlag.jpg'
+import flag from './ColombianFlag-min.jpg'
 
 
 //Beans1
 //Beans2
 
 
-import mealCuban from './Images/Meal_Cuban.png'
-import mealBreakfastCuban from './Images/Meal_BreakfastCuban.png'
-import mealBreakfastCroissant from './Images/Meal_BreakfastCroissant.png'
-import mealSausageInABlanket from './Images/Meal_SausageInABlanket.png'
-import mealCroissantHam from './Images/Meal_CroissantHam.png'
-import mealCroissantCheese from './Images/Meal_CroissantCheese.png'
-import mealArepa from './Images/Meal_Arepa.png'
-import mealSweetCornArepa from './Images/Meal_SweetCornArepa.png'
+import mealCuban from './Images/Meal_Cuban-min.png'
+import mealBreakfastCuban from './Images/Meal_BreakfastCuban-min.png'
+import mealBreakfastCroissant from './Images/Meal_BreakfastCroissant-min.png'
+import mealSausageInABlanket from './Images/Meal_SausageInABlanket-min.png'
+import mealCroissantHam from './Images/Meal_CroissantHam-min.png'
+import mealCroissantCheese from './Images/Meal_CroissantCheese-min.png'
+import mealArepa from './Images/Meal_Arepa-min.png'
+import mealSweetCornArepa from './Images/Meal_SweetCornArepa-min.png'
 //SweetCornArepa W/ Cheese
 //Toast
-import mealEmpanada from './Images/Meal_Empanada.png'
-import mealMeatPotatoBall from './Images/Meal_MeatPotatoBall.png'
-import mealMeatPie from './Images/Meal_MeatPie.png'
+import mealEmpanada from './Images/Meal_Empanada-min.png'
+import mealMeatPotatoBall from './Images/Meal_MeatPotatoBall-min.png'
+import mealMeatPie from './Images/Meal_MeatPie-min.png'
 
 
 //Tiramisu
 //Chocolate Mousse
 //Bread Pudding
-import pastryCookie from './Images/Pastry_Cookie.png'
-import pastryAlfajores from './Images/Pastry_Alfajores.png'
-import pastryGloriaBread from './Images/Pastry_GloriaBread.png'
+import pastryCookie from './Images/Pastry_Cookie-min.png'
+import pastryAlfajores from './Images/Pastry_Alfajores-min.png'
+import pastryGloriaBread from './Images/Pastry_GloriaBread-min.png'
 //Biscotti
-import pastryAppleTurnover from './Images/Pastry_AppleTurnover.png'
-import pastryFruitTart from './Images/Pastry_FruitTart.png'
-import pastryGuavaBearClaw from './Images/Pastry_GuavaBearClaw.png'
-import pastryGuavaTriangle from './Images/Pastry_GuavaTriangle.png'
-import pastryGuavaCheeseRing from './Images/Pastry_GuavaCheeseRing.png'
-import pastryMuffin from './Images/Pastry_Muffin.png'
-import pastryCarrotCake from './Images/Pastry_CarrotCake.png'
+import pastryAppleTurnover from './Images/Pastry_AppleTurnover-min.png'
+import pastryFruitTart from './Images/Pastry_FruitTart-min.png'
+import pastryGuavaBearClaw from './Images/Pastry_GuavaBearClaw-min.png'
+import pastryGuavaTriangle from './Images/Pastry_GuavaTriangle-min.png'
+import pastryGuavaCheeseRing from './Images/Pastry_GuavaCheeseRing-min.png'
+import pastryMuffin from './Images/Pastry_Muffin-min.png'
+import pastryCarrotCake from './Images/Pastry_CarrotCake-min.png'
 //Thousand Pages
-import pastrySliceOfEverything from './Images/Pastry_SliceOfEverything.png'
-import pastryCinnamonBun from './Images/Pastry_CinnamonBun.png'
-import pastryDonut from './Images/Pastry_Donut.png'
-import pastryEclair from './Images/Pastry_Eclair.png'
+import pastrySliceOfEverything from './Images/Pastry_SliceOfEverything-min.png'
+import pastryCinnamonBun from './Images/Pastry_CinnamonBun-min.png'
+import pastryDonut from './Images/Pastry_Donut-min.png'
+import pastryEclair from './Images/Pastry_Eclair-min.png'
 //Profiteroles
-import pastryCroissantChocolate from './Images/Pastry_CroissantChocolate.png'
-import pastryCroissant from './Images/Pastry_Croissant.png'
-import pastryCheeseFinger from './Images/Pastry_CheeseFinger.png'
-import pastryAcemas from './Images/Pastry_Acemas.png'
-import pastryPandebono from './Images/Pastry_Pandebono.png'
-import pastryBuñuelos from './Images/Pastry_Buñuelos.png'
-import pastryBreadCreamCheese from './Images/Pastry_BreadCreamCheese.png'
-import pastryBreadCheese from './Images/Pastry_BreadCheese.png'
-import pastryBreadChocolate from './Images/Pastry_BreadChocolate.png'
+import pastryCroissantChocolate from './Images/Pastry_CroissantChocolate-min.png'
+import pastryCroissant from './Images/Pastry_Croissant-min.png'
+import pastryCheeseFinger from './Images/Pastry_CheeseFinger-min.png'
+import pastryAcemas from './Images/Pastry_Acemas-min.png'
+import pastryPandebono from './Images/Pastry_Pandebono-min.png'
+import pastryBuñuelos from './Images/Pastry_Buñuelos-min.png'
+import pastryBreadCreamCheese from './Images/Pastry_BreadCreamCheese-min.png'
+import pastryBreadCheese from './Images/Pastry_BreadCheese-min.png'
+import pastryBreadChocolate from './Images/Pastry_BreadChocolate-min.png'
 
 
 
-import cake2 from './Images/Cake2.png'
-import cake3 from './Images/Cake3.png'
-import cake4 from './Images/Cake4.png'
-import cake5 from './Images/Cake5.png'
-import cake6 from './Images/Cake6.png'
-import cake7 from './Images/Cake7.png'
-import cake8 from './Images/Cake8.png'
-import cake9 from './Images/Cake9.png'
-import cakeChesecake1 from './Images/Cake_Cheesecake1.png'
-import cakeCheesecake2 from './Images/Cake_Cheesecake2.png'
-import cakeCheesecake3 from './Images/Cake_Cheesecake3.png'
+import cake2 from './Images/Cake2-min.png'
+import cake3 from './Images/Cake3-min.png'
+import cake4 from './Images/Cake4-min.png'
+import cake5 from './Images/Cake5-min.png'
+import cake6 from './Images/Cake6-min.png'
+import cake7 from './Images/Cake7-min.png'
+import cake8 from './Images/Cake8-min.png'
+import cake9 from './Images/Cake9-min.png'
+import cakeChesecake1 from './Images/Cake_Cheesecake1-min.png'
+import cakeCheesecake2 from './Images/Cake_Cheesecake2-min.png'
+import cakeCheesecake3 from './Images/Cake_Cheesecake3-min.png'
 
 
 
